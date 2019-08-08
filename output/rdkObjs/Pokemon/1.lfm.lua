@@ -175,7 +175,7 @@ local function constructNew_frmFichaTeste1_svg()
 
     obj.edit6 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit6:setParent(obj.layout6);
-    obj.edit6:setTransparent(false);
+    obj.edit6:setTransparent(true);
     obj.edit6:setFontSize(12);
     obj.edit6:setFontColor("#000000");
     obj.edit6:setVertTextAlign("center");
@@ -192,7 +192,8 @@ local function constructNew_frmFichaTeste1_svg()
     obj.image2:setParent(obj.rectangle1);
     obj.image2:setField("image_char");
     obj.image2:setEditable(true);
-    obj.image2:setStyle("autoFit");
+    obj.image2:setStyle("proportional");
+    lfm_setPropAsString(obj.image2, "animate",  "true");
     obj.image2:setLeft(855.5);
     obj.image2:setTop(105);
     obj.image2:setWidth(302);

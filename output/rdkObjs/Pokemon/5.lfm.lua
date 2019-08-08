@@ -102,7 +102,8 @@ local function constructNew_frmFichaTeste4_svg()
     obj.image2:setParent(obj.rectangle1);
     obj.image2:setField("img_pkmn_3");
     obj.image2:setEditable(true);
-    obj.image2:setStyle("autoFit");
+    obj.image2:setStyle("proportional");
+    lfm_setPropAsString(obj.image2, "animate",  "true");
     obj.image2:setLeft(76);
     obj.image2:setTop(159);
     obj.image2:setWidth(275);
@@ -113,7 +114,8 @@ local function constructNew_frmFichaTeste4_svg()
     obj.image3:setParent(obj.rectangle1);
     obj.image3:setField("img_pkmn_4");
     obj.image3:setEditable(true);
-    obj.image3:setStyle("autoFit");
+    obj.image3:setStyle("proportional");
+    lfm_setPropAsString(obj.image3, "animate",  "true");
     obj.image3:setLeft(720);
     obj.image3:setTop(159);
     obj.image3:setWidth(275);
@@ -212,7 +214,8 @@ local function constructNew_frmFichaTeste4_svg()
     obj.image4:setParent(obj.rectangle1);
     obj.image4:setField("type3_1");
     obj.image4:setEditable(true);
-    obj.image4:setStyle("autoFit");
+    obj.image4:setStyle("proportional");
+    lfm_setPropAsString(obj.image4, "animate",  "true");
     obj.image4:setLeft(375);
     obj.image4:setTop(325);
     obj.image4:setWidth(89);
@@ -223,7 +226,8 @@ local function constructNew_frmFichaTeste4_svg()
     obj.image5:setParent(obj.rectangle1);
     obj.image5:setField("type3_2");
     obj.image5:setEditable(true);
-    obj.image5:setStyle("autoFit");
+    obj.image5:setStyle("proportional");
+    lfm_setPropAsString(obj.image5, "animate",  "true");
     obj.image5:setLeft(465);
     obj.image5:setTop(325);
     obj.image5:setWidth(89);
@@ -234,7 +238,8 @@ local function constructNew_frmFichaTeste4_svg()
     obj.image6:setParent(obj.rectangle1);
     obj.image6:setField("type4_1");
     obj.image6:setEditable(true);
-    obj.image6:setStyle("autoFit");
+    obj.image6:setStyle("proportional");
+    lfm_setPropAsString(obj.image6, "animate",  "true");
     obj.image6:setLeft(1018);
     obj.image6:setTop(325);
     obj.image6:setWidth(89);
@@ -245,7 +250,8 @@ local function constructNew_frmFichaTeste4_svg()
     obj.image7:setParent(obj.rectangle1);
     obj.image7:setField("type4_2");
     obj.image7:setEditable(true);
-    obj.image7:setStyle("autoFit");
+    obj.image7:setStyle("proportional");
+    lfm_setPropAsString(obj.image7, "animate",  "true");
     obj.image7:setLeft(1108);
     obj.image7:setTop(325);
     obj.image7:setWidth(89);
@@ -256,7 +262,8 @@ local function constructNew_frmFichaTeste4_svg()
     obj.image8:setParent(obj.rectangle1);
     obj.image8:setField("item_3");
     obj.image8:setEditable(true);
-    obj.image8:setStyle("autoFit");
+    obj.image8:setStyle("proportional");
+    lfm_setPropAsString(obj.image8, "animate",  "true");
     obj.image8:setLeft(310);
     obj.image8:setTop(392);
     obj.image8:setWidth(40);
@@ -267,7 +274,8 @@ local function constructNew_frmFichaTeste4_svg()
     obj.image9:setParent(obj.rectangle1);
     obj.image9:setField("item_4");
     obj.image9:setEditable(true);
-    obj.image9:setStyle("autoFit");
+    obj.image9:setStyle("proportional");
+    lfm_setPropAsString(obj.image9, "animate",  "true");
     obj.image9:setLeft(953);
     obj.image9:setTop(392);
     obj.image9:setWidth(40);

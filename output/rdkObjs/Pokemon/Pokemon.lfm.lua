@@ -194,7 +194,7 @@ local function constructNew_frmPokemon()
 
     obj.edit6 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit6:setParent(obj.layout6);
-    obj.edit6:setTransparent(false);
+    obj.edit6:setTransparent(true);
     obj.edit6:setFontSize(12);
     obj.edit6:setFontColor("#000000");
     obj.edit6:setVertTextAlign("center");
@@ -211,7 +211,8 @@ local function constructNew_frmPokemon()
     obj.image2:setParent(obj.rectangle1);
     obj.image2:setField("image_char");
     obj.image2:setEditable(true);
-    obj.image2:setStyle("autoFit");
+    obj.image2:setStyle("proportional");
+    lfm_setPropAsString(obj.image2, "animate",  "true");
     obj.image2:setLeft(855.5);
     obj.image2:setTop(105);
     obj.image2:setWidth(302);
@@ -257,7 +258,8 @@ local function constructNew_frmPokemon()
     obj.image4:setParent(obj.rectangle2);
     obj.image4:setField("image_badge1");
     obj.image4:setEditable(true);
-    obj.image4:setStyle("autoFit");
+    obj.image4:setStyle("proportional");
+    lfm_setPropAsString(obj.image4, "animate",  "true");
     obj.image4:setLeft(286);
     obj.image4:setTop(181);
     obj.image4:setWidth(88);
@@ -268,7 +270,8 @@ local function constructNew_frmPokemon()
     obj.image5:setParent(obj.rectangle2);
     obj.image5:setField("image_badge2");
     obj.image5:setEditable(true);
-    obj.image5:setStyle("autoFit");
+    obj.image5:setStyle("proportional");
+    lfm_setPropAsString(obj.image5, "animate",  "true");
     obj.image5:setLeft(376);
     obj.image5:setTop(181);
     obj.image5:setWidth(88);
@@ -279,7 +282,8 @@ local function constructNew_frmPokemon()
     obj.image6:setParent(obj.rectangle2);
     obj.image6:setField("image_badge3");
     obj.image6:setEditable(true);
-    obj.image6:setStyle("autoFit");
+    obj.image6:setStyle("proportional");
+    lfm_setPropAsString(obj.image6, "animate",  "true");
     obj.image6:setLeft(466);
     obj.image6:setTop(181);
     obj.image6:setWidth(88);
@@ -290,7 +294,8 @@ local function constructNew_frmPokemon()
     obj.image7:setParent(obj.rectangle2);
     obj.image7:setField("image_badge4");
     obj.image7:setEditable(true);
-    obj.image7:setStyle("autoFit");
+    obj.image7:setStyle("proportional");
+    lfm_setPropAsString(obj.image7, "animate",  "true");
     obj.image7:setLeft(556);
     obj.image7:setTop(181);
     obj.image7:setWidth(88);
@@ -301,7 +306,8 @@ local function constructNew_frmPokemon()
     obj.image8:setParent(obj.rectangle2);
     obj.image8:setField("image_badge5");
     obj.image8:setEditable(true);
-    obj.image8:setStyle("autoFit");
+    obj.image8:setStyle("proportional");
+    lfm_setPropAsString(obj.image8, "animate",  "true");
     obj.image8:setLeft(646);
     obj.image8:setTop(181);
     obj.image8:setWidth(88);
@@ -312,7 +318,8 @@ local function constructNew_frmPokemon()
     obj.image9:setParent(obj.rectangle2);
     obj.image9:setField("image_badge6");
     obj.image9:setEditable(true);
-    obj.image9:setStyle("autoFit");
+    obj.image9:setStyle("proportional");
+    lfm_setPropAsString(obj.image9, "animate",  "true");
     obj.image9:setLeft(736);
     obj.image9:setTop(181);
     obj.image9:setWidth(88);
@@ -323,7 +330,8 @@ local function constructNew_frmPokemon()
     obj.image10:setParent(obj.rectangle2);
     obj.image10:setField("image_badge7");
     obj.image10:setEditable(true);
-    obj.image10:setStyle("autoFit");
+    obj.image10:setStyle("proportional");
+    lfm_setPropAsString(obj.image10, "animate",  "true");
     obj.image10:setLeft(826);
     obj.image10:setTop(181);
     obj.image10:setWidth(88);
@@ -334,7 +342,8 @@ local function constructNew_frmPokemon()
     obj.image11:setParent(obj.rectangle2);
     obj.image11:setField("image_badge8");
     obj.image11:setEditable(true);
-    obj.image11:setStyle("autoFit");
+    obj.image11:setStyle("proportional");
+    lfm_setPropAsString(obj.image11, "animate",  "true");
     obj.image11:setLeft(916);
     obj.image11:setTop(181);
     obj.image11:setWidth(88);
@@ -380,7 +389,8 @@ local function constructNew_frmPokemon()
     obj.image13:setParent(obj.rectangle3);
     obj.image13:setField("img_item1");
     obj.image13:setEditable(true);
-    obj.image13:setStyle("autoFit");
+    obj.image13:setStyle("proportional");
+    lfm_setPropAsString(obj.image13, "animate",  "true");
     obj.image13:setLeft(151);
     obj.image13:setTop(175);
     obj.image13:setWidth(88);
@@ -391,7 +401,8 @@ local function constructNew_frmPokemon()
     obj.image14:setParent(obj.rectangle3);
     obj.image14:setField("img_item2");
     obj.image14:setEditable(true);
-    obj.image14:setStyle("autoFit");
+    obj.image14:setStyle("proportional");
+    lfm_setPropAsString(obj.image14, "animate",  "true");
     obj.image14:setLeft(241);
     obj.image14:setTop(175);
     obj.image14:setWidth(88);
@@ -402,7 +413,8 @@ local function constructNew_frmPokemon()
     obj.image15:setParent(obj.rectangle3);
     obj.image15:setField("img_item3");
     obj.image15:setEditable(true);
-    obj.image15:setStyle("autoFit");
+    obj.image15:setStyle("proportional");
+    lfm_setPropAsString(obj.image15, "animate",  "true");
     obj.image15:setLeft(331);
     obj.image15:setTop(175);
     obj.image15:setWidth(88);
@@ -413,7 +425,8 @@ local function constructNew_frmPokemon()
     obj.image16:setParent(obj.rectangle3);
     obj.image16:setField("img_item4");
     obj.image16:setEditable(true);
-    obj.image16:setStyle("autoFit");
+    obj.image16:setStyle("proportional");
+    lfm_setPropAsString(obj.image16, "animate",  "true");
     obj.image16:setLeft(421);
     obj.image16:setTop(175);
     obj.image16:setWidth(88);
@@ -424,7 +437,8 @@ local function constructNew_frmPokemon()
     obj.image17:setParent(obj.rectangle3);
     obj.image17:setField("img_item5");
     obj.image17:setEditable(true);
-    obj.image17:setStyle("autoFit");
+    obj.image17:setStyle("proportional");
+    lfm_setPropAsString(obj.image17, "animate",  "true");
     obj.image17:setLeft(511);
     obj.image17:setTop(175);
     obj.image17:setWidth(88);
@@ -435,7 +449,8 @@ local function constructNew_frmPokemon()
     obj.image18:setParent(obj.rectangle3);
     obj.image18:setField("img_item6");
     obj.image18:setEditable(true);
-    obj.image18:setStyle("autoFit");
+    obj.image18:setStyle("proportional");
+    lfm_setPropAsString(obj.image18, "animate",  "true");
     obj.image18:setLeft(601);
     obj.image18:setTop(175);
     obj.image18:setWidth(88);
@@ -446,7 +461,8 @@ local function constructNew_frmPokemon()
     obj.image19:setParent(obj.rectangle3);
     obj.image19:setField("img_item7");
     obj.image19:setEditable(true);
-    obj.image19:setStyle("autoFit");
+    obj.image19:setStyle("proportional");
+    lfm_setPropAsString(obj.image19, "animate",  "true");
     obj.image19:setLeft(691);
     obj.image19:setTop(175);
     obj.image19:setWidth(88);
@@ -457,7 +473,8 @@ local function constructNew_frmPokemon()
     obj.image20:setParent(obj.rectangle3);
     obj.image20:setField("img_item8");
     obj.image20:setEditable(true);
-    obj.image20:setStyle("autoFit");
+    obj.image20:setStyle("proportional");
+    lfm_setPropAsString(obj.image20, "animate",  "true");
     obj.image20:setLeft(781);
     obj.image20:setTop(175);
     obj.image20:setWidth(88);
@@ -468,7 +485,8 @@ local function constructNew_frmPokemon()
     obj.image21:setParent(obj.rectangle3);
     obj.image21:setField("img_item9");
     obj.image21:setEditable(true);
-    obj.image21:setStyle("autoFit");
+    obj.image21:setStyle("proportional");
+    lfm_setPropAsString(obj.image21, "animate",  "true");
     obj.image21:setLeft(151);
     obj.image21:setTop(265);
     obj.image21:setWidth(88);
@@ -479,7 +497,8 @@ local function constructNew_frmPokemon()
     obj.image22:setParent(obj.rectangle3);
     obj.image22:setField("img_item10");
     obj.image22:setEditable(true);
-    obj.image22:setStyle("autoFit");
+    obj.image22:setStyle("proportional");
+    lfm_setPropAsString(obj.image22, "animate",  "true");
     obj.image22:setLeft(241);
     obj.image22:setTop(265);
     obj.image22:setWidth(88);
@@ -490,7 +509,8 @@ local function constructNew_frmPokemon()
     obj.image23:setParent(obj.rectangle3);
     obj.image23:setField("img_item11");
     obj.image23:setEditable(true);
-    obj.image23:setStyle("autoFit");
+    obj.image23:setStyle("proportional");
+    lfm_setPropAsString(obj.image23, "animate",  "true");
     obj.image23:setLeft(331);
     obj.image23:setTop(265);
     obj.image23:setWidth(88);
@@ -501,7 +521,8 @@ local function constructNew_frmPokemon()
     obj.image24:setParent(obj.rectangle3);
     obj.image24:setField("img_item12");
     obj.image24:setEditable(true);
-    obj.image24:setStyle("autoFit");
+    obj.image24:setStyle("proportional");
+    lfm_setPropAsString(obj.image24, "animate",  "true");
     obj.image24:setLeft(421);
     obj.image24:setTop(265);
     obj.image24:setWidth(88);
@@ -512,7 +533,8 @@ local function constructNew_frmPokemon()
     obj.image25:setParent(obj.rectangle3);
     obj.image25:setField("img_item13");
     obj.image25:setEditable(true);
-    obj.image25:setStyle("autoFit");
+    obj.image25:setStyle("proportional");
+    lfm_setPropAsString(obj.image25, "animate",  "true");
     obj.image25:setLeft(511);
     obj.image25:setTop(265);
     obj.image25:setWidth(88);
@@ -523,7 +545,8 @@ local function constructNew_frmPokemon()
     obj.image26:setParent(obj.rectangle3);
     obj.image26:setField("img_item14");
     obj.image26:setEditable(true);
-    obj.image26:setStyle("autoFit");
+    obj.image26:setStyle("proportional");
+    lfm_setPropAsString(obj.image26, "animate",  "true");
     obj.image26:setLeft(601);
     obj.image26:setTop(265);
     obj.image26:setWidth(88);
@@ -534,7 +557,8 @@ local function constructNew_frmPokemon()
     obj.image27:setParent(obj.rectangle3);
     obj.image27:setField("img_item15");
     obj.image27:setEditable(true);
-    obj.image27:setStyle("autoFit");
+    obj.image27:setStyle("proportional");
+    lfm_setPropAsString(obj.image27, "animate",  "true");
     obj.image27:setLeft(691);
     obj.image27:setTop(265);
     obj.image27:setWidth(88);
@@ -545,7 +569,8 @@ local function constructNew_frmPokemon()
     obj.image28:setParent(obj.rectangle3);
     obj.image28:setField("img_item16");
     obj.image28:setEditable(true);
-    obj.image28:setStyle("autoFit");
+    obj.image28:setStyle("proportional");
+    lfm_setPropAsString(obj.image28, "animate",  "true");
     obj.image28:setLeft(781);
     obj.image28:setTop(265);
     obj.image28:setWidth(88);
@@ -556,7 +581,8 @@ local function constructNew_frmPokemon()
     obj.image29:setParent(obj.rectangle3);
     obj.image29:setField("img_item17");
     obj.image29:setEditable(true);
-    obj.image29:setStyle("autoFit");
+    obj.image29:setStyle("proportional");
+    lfm_setPropAsString(obj.image29, "animate",  "true");
     obj.image29:setLeft(151);
     obj.image29:setTop(356);
     obj.image29:setWidth(88);
@@ -586,7 +612,8 @@ local function constructNew_frmPokemon()
     obj.image30:setParent(obj.rectangle3);
     obj.image30:setField("img_item18");
     obj.image30:setEditable(true);
-    obj.image30:setStyle("autoFit");
+    obj.image30:setStyle("proportional");
+    lfm_setPropAsString(obj.image30, "animate",  "true");
     obj.image30:setLeft(241);
     obj.image30:setTop(356);
     obj.image30:setWidth(88);
@@ -597,7 +624,8 @@ local function constructNew_frmPokemon()
     obj.image31:setParent(obj.rectangle3);
     obj.image31:setField("img_item19");
     obj.image31:setEditable(true);
-    obj.image31:setStyle("autoFit");
+    obj.image31:setStyle("proportional");
+    lfm_setPropAsString(obj.image31, "animate",  "true");
     obj.image31:setLeft(331);
     obj.image31:setTop(356);
     obj.image31:setWidth(88);
@@ -608,7 +636,8 @@ local function constructNew_frmPokemon()
     obj.image32:setParent(obj.rectangle3);
     obj.image32:setField("img_item20");
     obj.image32:setEditable(true);
-    obj.image32:setStyle("autoFit");
+    obj.image32:setStyle("proportional");
+    lfm_setPropAsString(obj.image32, "animate",  "true");
     obj.image32:setLeft(421);
     obj.image32:setTop(356);
     obj.image32:setWidth(88);
@@ -619,7 +648,8 @@ local function constructNew_frmPokemon()
     obj.image33:setParent(obj.rectangle3);
     obj.image33:setField("img_item21");
     obj.image33:setEditable(true);
-    obj.image33:setStyle("autoFit");
+    obj.image33:setStyle("proportional");
+    lfm_setPropAsString(obj.image33, "animate",  "true");
     obj.image33:setLeft(511);
     obj.image33:setTop(356);
     obj.image33:setWidth(88);
@@ -630,7 +660,8 @@ local function constructNew_frmPokemon()
     obj.image34:setParent(obj.rectangle3);
     obj.image34:setField("img_item22");
     obj.image34:setEditable(true);
-    obj.image34:setStyle("autoFit");
+    obj.image34:setStyle("proportional");
+    lfm_setPropAsString(obj.image34, "animate",  "true");
     obj.image34:setLeft(601);
     obj.image34:setTop(356);
     obj.image34:setWidth(88);
@@ -641,7 +672,8 @@ local function constructNew_frmPokemon()
     obj.image35:setParent(obj.rectangle3);
     obj.image35:setField("img_item23");
     obj.image35:setEditable(true);
-    obj.image35:setStyle("autoFit");
+    obj.image35:setStyle("proportional");
+    lfm_setPropAsString(obj.image35, "animate",  "true");
     obj.image35:setLeft(691);
     obj.image35:setTop(356);
     obj.image35:setWidth(88);
@@ -652,7 +684,8 @@ local function constructNew_frmPokemon()
     obj.image36:setParent(obj.rectangle3);
     obj.image36:setField("img_item24");
     obj.image36:setEditable(true);
-    obj.image36:setStyle("autoFit");
+    obj.image36:setStyle("proportional");
+    lfm_setPropAsString(obj.image36, "animate",  "true");
     obj.image36:setLeft(781);
     obj.image36:setTop(356);
     obj.image36:setWidth(88);
@@ -742,7 +775,8 @@ local function constructNew_frmPokemon()
     obj.image38:setParent(obj.rectangle4);
     obj.image38:setField("img_pkmn_1");
     obj.image38:setEditable(true);
-    obj.image38:setStyle("autoFit");
+    obj.image38:setStyle("proportional");
+    lfm_setPropAsString(obj.image38, "animate",  "true");
     obj.image38:setLeft(76);
     obj.image38:setTop(159);
     obj.image38:setWidth(275);
@@ -753,7 +787,8 @@ local function constructNew_frmPokemon()
     obj.image39:setParent(obj.rectangle4);
     obj.image39:setField("img_pkmn_2");
     obj.image39:setEditable(true);
-    obj.image39:setStyle("autoFit");
+    obj.image39:setStyle("proportional");
+    lfm_setPropAsString(obj.image39, "animate",  "true");
     obj.image39:setLeft(720);
     obj.image39:setTop(159);
     obj.image39:setWidth(275);
@@ -852,7 +887,8 @@ local function constructNew_frmPokemon()
     obj.image40:setParent(obj.rectangle4);
     obj.image40:setField("type1_1");
     obj.image40:setEditable(true);
-    obj.image40:setStyle("autoFit");
+    obj.image40:setStyle("proportional");
+    lfm_setPropAsString(obj.image40, "animate",  "true");
     obj.image40:setLeft(375);
     obj.image40:setTop(325);
     obj.image40:setWidth(89);
@@ -863,7 +899,8 @@ local function constructNew_frmPokemon()
     obj.image41:setParent(obj.rectangle4);
     obj.image41:setField("type1_2");
     obj.image41:setEditable(true);
-    obj.image41:setStyle("autoFit");
+    obj.image41:setStyle("proportional");
+    lfm_setPropAsString(obj.image41, "animate",  "true");
     obj.image41:setLeft(465);
     obj.image41:setTop(325);
     obj.image41:setWidth(89);
@@ -874,7 +911,8 @@ local function constructNew_frmPokemon()
     obj.image42:setParent(obj.rectangle4);
     obj.image42:setField("type2_1");
     obj.image42:setEditable(true);
-    obj.image42:setStyle("autoFit");
+    obj.image42:setStyle("proportional");
+    lfm_setPropAsString(obj.image42, "animate",  "true");
     obj.image42:setLeft(1018);
     obj.image42:setTop(325);
     obj.image42:setWidth(89);
@@ -885,7 +923,8 @@ local function constructNew_frmPokemon()
     obj.image43:setParent(obj.rectangle4);
     obj.image43:setField("type2_2");
     obj.image43:setEditable(true);
-    obj.image43:setStyle("autoFit");
+    obj.image43:setStyle("proportional");
+    lfm_setPropAsString(obj.image43, "animate",  "true");
     obj.image43:setLeft(1108);
     obj.image43:setTop(325);
     obj.image43:setWidth(89);
@@ -896,7 +935,8 @@ local function constructNew_frmPokemon()
     obj.image44:setParent(obj.rectangle4);
     obj.image44:setField("item_1");
     obj.image44:setEditable(true);
-    obj.image44:setStyle("autoFit");
+    obj.image44:setStyle("proportional");
+    lfm_setPropAsString(obj.image44, "animate",  "true");
     obj.image44:setLeft(310);
     obj.image44:setTop(392);
     obj.image44:setWidth(40);
@@ -907,7 +947,8 @@ local function constructNew_frmPokemon()
     obj.image45:setParent(obj.rectangle4);
     obj.image45:setField("item_2");
     obj.image45:setEditable(true);
-    obj.image45:setStyle("autoFit");
+    obj.image45:setStyle("proportional");
+    lfm_setPropAsString(obj.image45, "animate",  "true");
     obj.image45:setLeft(953);
     obj.image45:setTop(392);
     obj.image45:setWidth(40);
@@ -1261,7 +1302,8 @@ local function constructNew_frmPokemon()
     obj.image47:setParent(obj.rectangle5);
     obj.image47:setField("img_pkmn_3");
     obj.image47:setEditable(true);
-    obj.image47:setStyle("autoFit");
+    obj.image47:setStyle("proportional");
+    lfm_setPropAsString(obj.image47, "animate",  "true");
     obj.image47:setLeft(76);
     obj.image47:setTop(159);
     obj.image47:setWidth(275);
@@ -1272,7 +1314,8 @@ local function constructNew_frmPokemon()
     obj.image48:setParent(obj.rectangle5);
     obj.image48:setField("img_pkmn_4");
     obj.image48:setEditable(true);
-    obj.image48:setStyle("autoFit");
+    obj.image48:setStyle("proportional");
+    lfm_setPropAsString(obj.image48, "animate",  "true");
     obj.image48:setLeft(720);
     obj.image48:setTop(159);
     obj.image48:setWidth(275);
@@ -1371,7 +1414,8 @@ local function constructNew_frmPokemon()
     obj.image49:setParent(obj.rectangle5);
     obj.image49:setField("type3_1");
     obj.image49:setEditable(true);
-    obj.image49:setStyle("autoFit");
+    obj.image49:setStyle("proportional");
+    lfm_setPropAsString(obj.image49, "animate",  "true");
     obj.image49:setLeft(375);
     obj.image49:setTop(325);
     obj.image49:setWidth(89);
@@ -1382,7 +1426,8 @@ local function constructNew_frmPokemon()
     obj.image50:setParent(obj.rectangle5);
     obj.image50:setField("type3_2");
     obj.image50:setEditable(true);
-    obj.image50:setStyle("autoFit");
+    obj.image50:setStyle("proportional");
+    lfm_setPropAsString(obj.image50, "animate",  "true");
     obj.image50:setLeft(465);
     obj.image50:setTop(325);
     obj.image50:setWidth(89);
@@ -1393,7 +1438,8 @@ local function constructNew_frmPokemon()
     obj.image51:setParent(obj.rectangle5);
     obj.image51:setField("type4_1");
     obj.image51:setEditable(true);
-    obj.image51:setStyle("autoFit");
+    obj.image51:setStyle("proportional");
+    lfm_setPropAsString(obj.image51, "animate",  "true");
     obj.image51:setLeft(1018);
     obj.image51:setTop(325);
     obj.image51:setWidth(89);
@@ -1404,7 +1450,8 @@ local function constructNew_frmPokemon()
     obj.image52:setParent(obj.rectangle5);
     obj.image52:setField("type4_2");
     obj.image52:setEditable(true);
-    obj.image52:setStyle("autoFit");
+    obj.image52:setStyle("proportional");
+    lfm_setPropAsString(obj.image52, "animate",  "true");
     obj.image52:setLeft(1108);
     obj.image52:setTop(325);
     obj.image52:setWidth(89);
@@ -1415,7 +1462,8 @@ local function constructNew_frmPokemon()
     obj.image53:setParent(obj.rectangle5);
     obj.image53:setField("item_3");
     obj.image53:setEditable(true);
-    obj.image53:setStyle("autoFit");
+    obj.image53:setStyle("proportional");
+    lfm_setPropAsString(obj.image53, "animate",  "true");
     obj.image53:setLeft(310);
     obj.image53:setTop(392);
     obj.image53:setWidth(40);
@@ -1426,7 +1474,8 @@ local function constructNew_frmPokemon()
     obj.image54:setParent(obj.rectangle5);
     obj.image54:setField("item_4");
     obj.image54:setEditable(true);
-    obj.image54:setStyle("autoFit");
+    obj.image54:setStyle("proportional");
+    lfm_setPropAsString(obj.image54, "animate",  "true");
     obj.image54:setLeft(953);
     obj.image54:setTop(392);
     obj.image54:setWidth(40);
@@ -1780,7 +1829,8 @@ local function constructNew_frmPokemon()
     obj.image56:setParent(obj.rectangle6);
     obj.image56:setField("img_pkmn_5");
     obj.image56:setEditable(true);
-    obj.image56:setStyle("autoFit");
+    obj.image56:setStyle("proportional");
+    lfm_setPropAsString(obj.image56, "animate",  "true");
     obj.image56:setLeft(76);
     obj.image56:setTop(159);
     obj.image56:setWidth(275);
@@ -1791,7 +1841,8 @@ local function constructNew_frmPokemon()
     obj.image57:setParent(obj.rectangle6);
     obj.image57:setField("img_pkmn_6");
     obj.image57:setEditable(true);
-    obj.image57:setStyle("autoFit");
+    obj.image57:setStyle("proportional");
+    lfm_setPropAsString(obj.image57, "animate",  "true");
     obj.image57:setLeft(720);
     obj.image57:setTop(159);
     obj.image57:setWidth(275);
@@ -1890,7 +1941,8 @@ local function constructNew_frmPokemon()
     obj.image58:setParent(obj.rectangle6);
     obj.image58:setField("type5_1");
     obj.image58:setEditable(true);
-    obj.image58:setStyle("autoFit");
+    obj.image58:setStyle("proportional");
+    lfm_setPropAsString(obj.image58, "animate",  "true");
     obj.image58:setLeft(375);
     obj.image58:setTop(325);
     obj.image58:setWidth(89);
@@ -1901,7 +1953,8 @@ local function constructNew_frmPokemon()
     obj.image59:setParent(obj.rectangle6);
     obj.image59:setField("type5_2");
     obj.image59:setEditable(true);
-    obj.image59:setStyle("autoFit");
+    obj.image59:setStyle("proportional");
+    lfm_setPropAsString(obj.image59, "animate",  "true");
     obj.image59:setLeft(465);
     obj.image59:setTop(325);
     obj.image59:setWidth(89);
@@ -1912,7 +1965,8 @@ local function constructNew_frmPokemon()
     obj.image60:setParent(obj.rectangle6);
     obj.image60:setField("type6_1");
     obj.image60:setEditable(true);
-    obj.image60:setStyle("autoFit");
+    obj.image60:setStyle("proportional");
+    lfm_setPropAsString(obj.image60, "animate",  "true");
     obj.image60:setLeft(1018);
     obj.image60:setTop(325);
     obj.image60:setWidth(89);
@@ -1923,7 +1977,8 @@ local function constructNew_frmPokemon()
     obj.image61:setParent(obj.rectangle6);
     obj.image61:setField("type6_2");
     obj.image61:setEditable(true);
-    obj.image61:setStyle("autoFit");
+    obj.image61:setStyle("proportional");
+    lfm_setPropAsString(obj.image61, "animate",  "true");
     obj.image61:setLeft(1108);
     obj.image61:setTop(325);
     obj.image61:setWidth(89);
@@ -1934,7 +1989,8 @@ local function constructNew_frmPokemon()
     obj.image62:setParent(obj.rectangle6);
     obj.image62:setField("item_5");
     obj.image62:setEditable(true);
-    obj.image62:setStyle("autoFit");
+    obj.image62:setStyle("proportional");
+    lfm_setPropAsString(obj.image62, "animate",  "true");
     obj.image62:setLeft(310);
     obj.image62:setTop(392);
     obj.image62:setWidth(40);
@@ -1945,7 +2001,8 @@ local function constructNew_frmPokemon()
     obj.image63:setParent(obj.rectangle6);
     obj.image63:setField("item_6");
     obj.image63:setEditable(true);
-    obj.image63:setStyle("autoFit");
+    obj.image63:setStyle("proportional");
+    lfm_setPropAsString(obj.image63, "animate",  "true");
     obj.image63:setLeft(953);
     obj.image63:setTop(392);
     obj.image63:setWidth(40);
