@@ -7,7 +7,7 @@ require("ndb.lua");
 require("locale.lua");
 local __o_Utils = require("utils.lua");
 
-local function constructNew_frmFichaTeste()
+local function constructNew_frmPokemon()
     local obj = GUI.fromHandle(_obj_newObject("form"));
     local self = obj;
     local sheet = nil;
@@ -26,10 +26,10 @@ local function constructNew_frmFichaTeste()
 
     _gui_assignInitialParentForForm(obj.handle);
     obj:beginUpdate();
-    obj:setName("frmFichaTeste");
+    obj:setName("frmPokemon");
     obj:setFormType("sheetTemplate");
-    obj:setDataType("Alterar.DataType.FichaTeste");
-    obj:setTitle("FichaTeste (PDF)");
+    obj:setDataType("Pokemon.DataType");
+    obj:setTitle("Pokemon Custom");
     obj:setAlign("client");
     obj:setTheme("light");
 
@@ -2446,13 +2446,13 @@ local function constructNew_frmFichaTeste()
     return obj;
 end;
 
-function newfrmFichaTeste()
+function newfrmPokemon()
     local retObj = nil;
     __o_rrpgObjs.beginObjectsLoading();
 
     __o_Utils.tryFinally(
       function()
-        retObj = constructNew_frmFichaTeste();
+        retObj = constructNew_frmPokemon();
       end,
       function()
         __o_rrpgObjs.endObjectsLoading();
@@ -2462,18 +2462,18 @@ function newfrmFichaTeste()
     return retObj;
 end;
 
-local _frmFichaTeste = {
-    newEditor = newfrmFichaTeste, 
-    new = newfrmFichaTeste, 
-    name = "frmFichaTeste", 
-    dataType = "Alterar.DataType.FichaTeste", 
+local _frmPokemon = {
+    newEditor = newfrmPokemon, 
+    new = newfrmPokemon, 
+    name = "frmPokemon", 
+    dataType = "Pokemon.DataType", 
     formType = "sheetTemplate", 
     formComponentName = "form", 
-    title = "FichaTeste (PDF)", 
+    title = "Pokemon Custom", 
     description=""};
 
-frmFichaTeste = _frmFichaTeste;
-Firecast.registrarForm(_frmFichaTeste);
-Firecast.registrarDataType(_frmFichaTeste);
+frmPokemon = _frmPokemon;
+Firecast.registrarForm(_frmPokemon);
+Firecast.registrarDataType(_frmPokemon);
 
-return _frmFichaTeste;
+return _frmPokemon;
