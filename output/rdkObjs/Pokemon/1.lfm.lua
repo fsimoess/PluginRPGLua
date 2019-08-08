@@ -168,23 +168,24 @@ local function constructNew_frmFichaTeste1_svg()
     obj.layout6 = GUI.fromHandle(_obj_newObject("layout"));
     obj.layout6:setParent(obj.rectangle1);
     obj.layout6:setLeft(400);
-    obj.layout6:setTop(424);
-    obj.layout6:setWidth(125);
-    obj.layout6:setHeight(18);
+    obj.layout6:setTop(412);
+    obj.layout6:setWidth(160);
+    obj.layout6:setHeight(36);
     obj.layout6:setName("layout6");
 
     obj.edit6 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit6:setParent(obj.layout6);
     obj.edit6:setTransparent(true);
-    obj.edit6:setFontSize(12);
+    obj.edit6:setDecimalPlaces(2);
+    obj.edit6:setFontSize(20);
     obj.edit6:setFontColor("#000000");
-    obj.edit6:setVertTextAlign("center");
+    obj.edit6:setVertTextAlign("trailing");
     obj.edit6:setHorzTextAlign("center");
     obj.edit6:setLeft(0);
     obj.edit6:setType("float");
     obj.edit6:setTop(0);
-    obj.edit6:setWidth(125);
-    obj.edit6:setHeight(18);
+    obj.edit6:setWidth(160);
+    obj.edit6:setHeight(36);
     obj.edit6:setField("Caixa_de_texto_2");
     obj.edit6:setName("edit6");
 

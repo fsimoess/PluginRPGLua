@@ -19,8 +19,8 @@
             <layout left="400" top="367" width="241" height="29" compilerOrder="9">
                 <edit transparent="true" fontSize="20" fontColor="#000000" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="241" height="29" field="Caixa_de_texto_1_5" compilerOrder="10"/>
             </layout>&#xD;
-            <layout left="400" top="424" width="125" height="18" compilerOrder="11">
-                <edit transparent="true" fontSize="12" fontColor="#000000" vertTextAlign="center" horzTextAlign="center" left="0" type="float" top="0" width="125" height="18" field="Caixa_de_texto_2" compilerOrder="12"/>
+            <layout left="400" top="412" width="160" height="36" compilerOrder="11">
+                <edit transparent="true"  decimalPlaces="2" fontSize="20" fontColor="#000000" vertTextAlign="trailing" horzTextAlign="center" left="0" type="float" top="0" width="160" height="36" field="Caixa_de_texto_2" compilerOrder="12"/>
             </layout>&#xD;
         </rectangle>
     </scrollBox>
