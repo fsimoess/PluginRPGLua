@@ -3,7 +3,7 @@
     <scrollBox align="client">
         <rectangle width="1267" height="593" color="white">&#xD;
             <image left="0" top="0" width="1267" height="593" src="images/1.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
-            <image field="image_char" editable="true" style="autofit" left="855.5" top="105" width="302" height="409" compilerOrder="13"/>&#xD;
+            <image field="image_char" editable="true" style="proportional" animate="true" left="855.5" top="105" width="302" height="409" compilerOrder="13"/>&#xD;
             <layout left="400" top="177" width="241" height="29" compilerOrder="1">
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" fontSize="20" fontColor="#000000" left="0" top="0" width="241" height="29" field="Caixa_de_texto_1" compilerOrder="2"/>
             </layout>;

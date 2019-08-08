@@ -14,9 +14,9 @@
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" fontSize="20" fontColor="#000000" left="0" top="0" width="270" height="37" field="name_pkmn_3" compilerOrder="4"/>
             </layout>&#xD;
 
-            <image field="img_pkmn_3" editable="true" style="autofit" left="76" top="159" width="275" height="275" compilerOrder="5"/>&#xD;
+            <image field="img_pkmn_3" editable="true" style="proportional" animate="true" left="76" top="159" width="275" height="275" compilerOrder="5"/>&#xD;
 
-			<image field="img_pkmn_4" editable="true" style="autofit" left="720" top="159" width="275" height="275" compilerOrder="6"/>&#xD;
+			<image field="img_pkmn_4" editable="true" style="proportional" animate="true" left="720" top="159" width="275" height="275" compilerOrder="6"/>&#xD;
 
             <layout left="376" top="200" width="180" height="39" compilerOrder="7">
                 <edit transparent="true" fontSize="20" fontColor="#000000" horzTextAlign="center" vertTextAlign="trailing" left="0" top="0" width="180" height="39" field="ability_3" compilerOrder="8"/>
@@ -34,17 +34,17 @@
                 <edit transparent="true" fontSize="20" fontColor="#000000" horzTextAlign="center" vertTextAlign="trailing" left="0" top="0" width="180" height="39" field="gender_4" compilerOrder="14"/>
             </layout>&#xD;
 
-            <image field="type3_1" editable="true" style="autofit" left="375" top="325" width="89" height="40" compilerOrder="15"/>&#xD;
+            <image field="type3_1" editable="true" style="proportional" animate="true" left="375" top="325" width="89" height="40" compilerOrder="15"/>&#xD;
 
-            <image field="type3_2" editable="true" style="autofit" left="465" top="325" width="89" height="40" compilerOrder="16"/>&#xD;
+            <image field="type3_2" editable="true" style="proportional" animate="true" left="465" top="325" width="89" height="40" compilerOrder="16"/>&#xD;
 
-            <image field="type4_1" editable="true" style="autofit" left="1018" top="325" width="89" height="40" compilerOrder="17"/>&#xD;
+            <image field="type4_1" editable="true" style="proportional" animate="true" left="1018" top="325" width="89" height="40" compilerOrder="17"/>&#xD;
 
-            <image field="type4_2" editable="true" style="autofit" left="1108" top="325" width="89" height="40" compilerOrder="18"/>&#xD;
+            <image field="type4_2" editable="true" style="proportional" animate="true" left="1108" top="325" width="89" height="40" compilerOrder="18"/>&#xD;
 
-            <image field="item_3" editable="true" style="autofit" left="310" top="392" width="40" height="40" compilerOrder="19"/>&#xD;
+            <image field="item_3" editable="true" style="proportional" animate="true" left="310" top="392" width="40" height="40" compilerOrder="19"/>&#xD;
 
-            <image field="item_4" editable="true" style="autofit" left="953" top="392" width="40" height="40" compilerOrder="20"/>&#xD;
+            <image field="item_4" editable="true" style="proportional" animate="true" left="953" top="392" width="40" height="40" compilerOrder="20"/>&#xD;
 
             <layout left="375" top="390" width="88" height="40" compilerOrder="21">
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="88" height="40" fontSize="20" fontColor="#000000" field="exp_3" compilerOrder="22"/>
