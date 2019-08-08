@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmFichaTeste1_svg" align="client" theme="light" margins="{top=1}">
+    <scrollBox align="client">
+        <rectangle width="1267" height="593" color="white">&#xD;
+            <image left="0" top="0" width="1267" height="593" src="images/1.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
+            <image field="image_char" editable="true" style="autofit" left="855.5" top="105" width="302" height="409" compilerOrder="13"/>&#xD;
+            <layout left="400" top="177" width="241" height="29" compilerOrder="1">
+                <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" fontSize="20" fontColor="#000000" left="0" top="0" width="241" height="29" field="Caixa_de_texto_1" compilerOrder="2"/>
+            </layout>;
+            <layout left="404" top="224" width="37" height="29" compilerOrder="3">
+                <edit transparent="true" fontSize="20" fontColor="#000000" vertTextAlign="trailing" horzTextAlign="center" type="number" left="0" top="0" width="37" height="29" field="Caixa_de_texto_1_2" compilerOrder="4"/>
+            </layout>&#xD;
+            <layout left="400" top="275" width="241" height="29" compilerOrder="5">
+                <edit transparent="true" fontSize="20" fontColor="#000000" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="241" height="29" field="Caixa_de_texto_1_3" compilerOrder="6"/>
+            </layout>&#xD;
+            <layout left="400" top="323" width="241" height="29" compilerOrder="7">
+                <edit transparent="true" fontSize="20" fontColor="#000000" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="241" height="29" field="Caixa_de_texto_1_4" compilerOrder="8"/>
+            </layout>&#xD;
+            <layout left="400" top="367" width="241" height="29" compilerOrder="9">
+                <edit transparent="true" fontSize="20" fontColor="#000000" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="241" height="29" field="Caixa_de_texto_1_5" compilerOrder="10"/>
+            </layout>&#xD;
+            <layout left="400" top="424" width="125" height="18" compilerOrder="11">
+                <edit transparent="false" fontSize="12" fontColor="#000000" vertTextAlign="center" horzTextAlign="center" left="0" type="float" top="0" width="125" height="18" field="Caixa_de_texto_2" compilerOrder="12"/>
+            </layout>&#xD;
+        </rectangle>
+    </scrollBox>
+</form>

@@ -49,7 +49,7 @@ local function constructNew_frmFichaTeste2_svg()
     obj.image1:setTop(0);
     obj.image1:setWidth(1267);
     obj.image1:setHeight(593);
-    obj.image1:setSRC("/FichaTeste/images/2.png");
+    obj.image1:setSRC("/Pokemon/images/2.png");
     obj.image1:setStyle("stretch");
     obj.image1:setOptimize(true);
     obj.image1:setName("image1");

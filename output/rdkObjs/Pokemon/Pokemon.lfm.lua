@@ -68,7 +68,7 @@ local function constructNew_frmPokemon()
     obj.image1:setTop(0);
     obj.image1:setWidth(1267);
     obj.image1:setHeight(593);
-    obj.image1:setSRC("/FichaTeste/images/1.png");
+    obj.image1:setSRC("/Pokemon/images/1.png");
     obj.image1:setStyle("stretch");
     obj.image1:setOptimize(true);
     obj.image1:setName("image1");
@@ -248,7 +248,7 @@ local function constructNew_frmPokemon()
     obj.image3:setTop(0);
     obj.image3:setWidth(1267);
     obj.image3:setHeight(593);
-    obj.image3:setSRC("/FichaTeste/images/2.png");
+    obj.image3:setSRC("/Pokemon/images/2.png");
     obj.image3:setStyle("stretch");
     obj.image3:setOptimize(true);
     obj.image3:setName("image3");
@@ -371,7 +371,7 @@ local function constructNew_frmPokemon()
     obj.image12:setTop(0);
     obj.image12:setWidth(1267);
     obj.image12:setHeight(593);
-    obj.image12:setSRC("/FichaTeste/images/3.png");
+    obj.image12:setSRC("/Pokemon/images/3.png");
     obj.image12:setStyle("stretch");
     obj.image12:setOptimize(true);
     obj.image12:setName("image12");
@@ -689,7 +689,7 @@ local function constructNew_frmPokemon()
     obj.image37:setTop(0);
     obj.image37:setWidth(1267);
     obj.image37:setHeight(593);
-    obj.image37:setSRC("/FichaTeste/images/4.png");
+    obj.image37:setSRC("/Pokemon/images/4.png");
     obj.image37:setStyle("stretch");
     obj.image37:setOptimize(true);
     obj.image37:setName("image37");
@@ -1208,7 +1208,7 @@ local function constructNew_frmPokemon()
     obj.image46:setTop(0);
     obj.image46:setWidth(1267);
     obj.image46:setHeight(593);
-    obj.image46:setSRC("/FichaTeste/images/4.png");
+    obj.image46:setSRC("/Pokemon/images/4.png");
     obj.image46:setStyle("stretch");
     obj.image46:setOptimize(true);
     obj.image46:setName("image46");
@@ -1727,7 +1727,7 @@ local function constructNew_frmPokemon()
     obj.image55:setTop(0);
     obj.image55:setWidth(1267);
     obj.image55:setHeight(593);
-    obj.image55:setSRC("/FichaTeste/images/4.png");
+    obj.image55:setSRC("/Pokemon/images/4.png");
     obj.image55:setStyle("stretch");
     obj.image55:setOptimize(true);
     obj.image55:setName("image55");
