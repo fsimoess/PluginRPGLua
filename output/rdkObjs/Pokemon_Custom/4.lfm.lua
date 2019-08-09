@@ -7,7 +7,7 @@ require("ndb.lua");
 require("locale.lua");
 local __o_Utils = require("utils.lua");
 
-local function constructNew_frmFichaTeste6_svg()
+local function constructNew_frmFichaTeste5_svg()
     local obj = GUI.fromHandle(_obj_newObject("form"));
     local self = obj;
     local sheet = nil;
@@ -26,7 +26,7 @@ local function constructNew_frmFichaTeste6_svg()
 
     _gui_assignInitialParentForForm(obj.handle);
     obj:beginUpdate();
-    obj:setName("frmFichaTeste6_svg");
+    obj:setName("frmFichaTeste5_svg");
     obj:setAlign("client");
     obj:setTheme("light");
     obj:setMargins({top=1});
@@ -49,7 +49,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.image1:setTop(0);
     obj.image1:setWidth(1267);
     obj.image1:setHeight(593);
-    obj.image1:setSRC("/Pokemon/images/4.png");
+    obj.image1:setSRC("/Pokemon_Custom/images/4.png");
     obj.image1:setStyle("stretch");
     obj.image1:setOptimize(true);
     obj.image1:setName("image1");
@@ -73,7 +73,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit1:setTop(0);
     obj.edit1:setWidth(270);
     obj.edit1:setHeight(37);
-    obj.edit1:setField("name_pkmn_6");
+    obj.edit1:setField("name_pkmn_2");
     obj.edit1:setName("edit1");
 
     obj.layout2 = GUI.fromHandle(_obj_newObject("layout"));
@@ -95,12 +95,12 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit2:setTop(0);
     obj.edit2:setWidth(270);
     obj.edit2:setHeight(37);
-    obj.edit2:setField("name_pkmn_5");
+    obj.edit2:setField("name_pkmn_1");
     obj.edit2:setName("edit2");
 
     obj.image2 = GUI.fromHandle(_obj_newObject("image"));
     obj.image2:setParent(obj.rectangle1);
-    obj.image2:setField("img_pkmn_5");
+    obj.image2:setField("img_pkmn_1");
     obj.image2:setEditable(true);
     obj.image2:setStyle("proportional");
     lfm_setPropAsString(obj.image2, "animate",  "true");
@@ -112,7 +112,7 @@ local function constructNew_frmFichaTeste6_svg()
 
     obj.image3 = GUI.fromHandle(_obj_newObject("image"));
     obj.image3:setParent(obj.rectangle1);
-    obj.image3:setField("img_pkmn_6");
+    obj.image3:setField("img_pkmn_2");
     obj.image3:setEditable(true);
     obj.image3:setStyle("proportional");
     lfm_setPropAsString(obj.image3, "animate",  "true");
@@ -141,7 +141,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit3:setTop(0);
     obj.edit3:setWidth(180);
     obj.edit3:setHeight(39);
-    obj.edit3:setField("ability_5");
+    obj.edit3:setField("ability_1");
     obj.edit3:setName("edit3");
 
     obj.layout4 = GUI.fromHandle(_obj_newObject("layout"));
@@ -163,7 +163,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit4:setTop(0);
     obj.edit4:setWidth(180);
     obj.edit4:setHeight(39);
-    obj.edit4:setField("gender_5");
+    obj.edit4:setField("gender_1");
     obj.edit4:setName("edit4");
 
     obj.layout5 = GUI.fromHandle(_obj_newObject("layout"));
@@ -185,7 +185,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit5:setTop(0);
     obj.edit5:setWidth(180);
     obj.edit5:setHeight(39);
-    obj.edit5:setField("ability_6");
+    obj.edit5:setField("ability_2");
     obj.edit5:setName("edit5");
 
     obj.layout6 = GUI.fromHandle(_obj_newObject("layout"));
@@ -207,14 +207,14 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit6:setTop(0);
     obj.edit6:setWidth(180);
     obj.edit6:setHeight(39);
-    obj.edit6:setField("gender_6");
+    obj.edit6:setField("gender_2");
     obj.edit6:setName("edit6");
 
     obj.image4 = GUI.fromHandle(_obj_newObject("image"));
     obj.image4:setParent(obj.rectangle1);
-    obj.image4:setField("type5_1");
+    obj.image4:setField("type1_1");
     obj.image4:setEditable(true);
-    obj.image4:setStyle("proportional");
+    obj.image4:setStyle("autoFit");
     lfm_setPropAsString(obj.image4, "animate",  "true");
     obj.image4:setLeft(375);
     obj.image4:setTop(325);
@@ -224,9 +224,9 @@ local function constructNew_frmFichaTeste6_svg()
 
     obj.image5 = GUI.fromHandle(_obj_newObject("image"));
     obj.image5:setParent(obj.rectangle1);
-    obj.image5:setField("type5_2");
+    obj.image5:setField("type1_2");
     obj.image5:setEditable(true);
-    obj.image5:setStyle("proportional");
+    obj.image5:setStyle("autoFit");
     lfm_setPropAsString(obj.image5, "animate",  "true");
     obj.image5:setLeft(465);
     obj.image5:setTop(325);
@@ -236,9 +236,9 @@ local function constructNew_frmFichaTeste6_svg()
 
     obj.image6 = GUI.fromHandle(_obj_newObject("image"));
     obj.image6:setParent(obj.rectangle1);
-    obj.image6:setField("type6_1");
+    obj.image6:setField("type2_1");
     obj.image6:setEditable(true);
-    obj.image6:setStyle("proportional");
+    obj.image6:setStyle("autoFit");
     lfm_setPropAsString(obj.image6, "animate",  "true");
     obj.image6:setLeft(1018);
     obj.image6:setTop(325);
@@ -248,9 +248,9 @@ local function constructNew_frmFichaTeste6_svg()
 
     obj.image7 = GUI.fromHandle(_obj_newObject("image"));
     obj.image7:setParent(obj.rectangle1);
-    obj.image7:setField("type6_2");
+    obj.image7:setField("type2_2");
     obj.image7:setEditable(true);
-    obj.image7:setStyle("proportional");
+    obj.image7:setStyle("autoFit");
     lfm_setPropAsString(obj.image7, "animate",  "true");
     obj.image7:setLeft(1108);
     obj.image7:setTop(325);
@@ -260,7 +260,7 @@ local function constructNew_frmFichaTeste6_svg()
 
     obj.image8 = GUI.fromHandle(_obj_newObject("image"));
     obj.image8:setParent(obj.rectangle1);
-    obj.image8:setField("item_5");
+    obj.image8:setField("item_1");
     obj.image8:setEditable(true);
     obj.image8:setStyle("proportional");
     lfm_setPropAsString(obj.image8, "animate",  "true");
@@ -272,7 +272,7 @@ local function constructNew_frmFichaTeste6_svg()
 
     obj.image9 = GUI.fromHandle(_obj_newObject("image"));
     obj.image9:setParent(obj.rectangle1);
-    obj.image9:setField("item_6");
+    obj.image9:setField("item_2");
     obj.image9:setEditable(true);
     obj.image9:setStyle("proportional");
     lfm_setPropAsString(obj.image9, "animate",  "true");
@@ -292,6 +292,7 @@ local function constructNew_frmFichaTeste6_svg()
 
     obj.edit7 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit7:setParent(obj.layout7);
+    obj.edit7:setText("Seu Exp");
     obj.edit7:setTransparent(true);
     obj.edit7:setVertTextAlign("trailing");
     obj.edit7:setHorzTextAlign("center");
@@ -301,7 +302,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit7:setHeight(40);
     obj.edit7:setFontSize(20);
     obj.edit7:setFontColor("#000000");
-    obj.edit7:setField("exp_5");
+    obj.edit7:setField("exp_1");
     obj.edit7:setName("edit7");
 
     obj.layout8 = GUI.fromHandle(_obj_newObject("layout"));
@@ -323,7 +324,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit8:setHeight(40);
     obj.edit8:setFontSize(20);
     obj.edit8:setFontColor("#000000");
-    obj.edit8:setField("level_5");
+    obj.edit8:setField("level_1");
     obj.edit8:setName("edit8");
 
     obj.layout9 = GUI.fromHandle(_obj_newObject("layout"));
@@ -345,7 +346,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit9:setHeight(40);
     obj.edit9:setFontSize(20);
     obj.edit9:setFontColor("#000000");
-    obj.edit9:setField("exp_6");
+    obj.edit9:setField("exp_2");
     obj.edit9:setName("edit9");
 
     obj.layout10 = GUI.fromHandle(_obj_newObject("layout"));
@@ -367,7 +368,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit10:setHeight(40);
     obj.edit10:setFontSize(20);
     obj.edit10:setFontColor("#000000");
-    obj.edit10:setField("level_6");
+    obj.edit10:setField("level_2");
     obj.edit10:setName("edit10");
 
     obj.layout11 = GUI.fromHandle(_obj_newObject("layout"));
@@ -389,7 +390,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit11:setHeight(39);
     obj.edit11:setFontSize(20);
     obj.edit11:setFontColor("#000000");
-    obj.edit11:setField("atk_5_1");
+    obj.edit11:setField("atk_1_1");
     obj.edit11:setName("edit11");
 
     obj.layout12 = GUI.fromHandle(_obj_newObject("layout"));
@@ -411,7 +412,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit12:setHeight(39);
     obj.edit12:setFontSize(20);
     obj.edit12:setFontColor("#000000");
-    obj.edit12:setField("atk_5_2");
+    obj.edit12:setField("atk_1_2");
     obj.edit12:setName("edit12");
 
     obj.layout13 = GUI.fromHandle(_obj_newObject("layout"));
@@ -433,7 +434,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit13:setHeight(39);
     obj.edit13:setFontSize(20);
     obj.edit13:setFontColor("#000000");
-    obj.edit13:setField("atk_5_3");
+    obj.edit13:setField("atk_1_3");
     obj.edit13:setName("edit13");
 
     obj.layout14 = GUI.fromHandle(_obj_newObject("layout"));
@@ -455,7 +456,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit14:setHeight(39);
     obj.edit14:setFontSize(20);
     obj.edit14:setFontColor("#000000");
-    obj.edit14:setField("atk_5_4");
+    obj.edit14:setField("atk_1_4");
     obj.edit14:setName("edit14");
 
     obj.layout15 = GUI.fromHandle(_obj_newObject("layout"));
@@ -477,7 +478,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit15:setHeight(39);
     obj.edit15:setFontSize(20);
     obj.edit15:setFontColor("#000000");
-    obj.edit15:setField("atk_6_1");
+    obj.edit15:setField("atk_2_1");
     obj.edit15:setName("edit15");
 
     obj.layout16 = GUI.fromHandle(_obj_newObject("layout"));
@@ -499,7 +500,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit16:setHeight(39);
     obj.edit16:setFontSize(20);
     obj.edit16:setFontColor("#000000");
-    obj.edit16:setField("atk_6_2");
+    obj.edit16:setField("atk_2_2");
     obj.edit16:setName("edit16");
 
     obj.layout17 = GUI.fromHandle(_obj_newObject("layout"));
@@ -521,7 +522,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit17:setHeight(39);
     obj.edit17:setFontSize(20);
     obj.edit17:setFontColor("#000000");
-    obj.edit17:setField("atk_6_3");
+    obj.edit17:setField("atk_2_3");
     obj.edit17:setName("edit17");
 
     obj.layout18 = GUI.fromHandle(_obj_newObject("layout"));
@@ -543,7 +544,7 @@ local function constructNew_frmFichaTeste6_svg()
     obj.edit18:setHeight(39);
     obj.edit18:setFontSize(20);
     obj.edit18:setFontColor("#000000");
-    obj.edit18:setField("atk_6_4");
+    obj.edit18:setField("atk_2_4");
     obj.edit18:setName("edit18");
 
     function obj:_releaseEvents()
@@ -613,13 +614,13 @@ local function constructNew_frmFichaTeste6_svg()
     return obj;
 end;
 
-function newfrmFichaTeste6_svg()
+function newfrmFichaTeste5_svg()
     local retObj = nil;
     __o_rrpgObjs.beginObjectsLoading();
 
     __o_Utils.tryFinally(
       function()
-        retObj = constructNew_frmFichaTeste6_svg();
+        retObj = constructNew_frmFichaTeste5_svg();
       end,
       function()
         __o_rrpgObjs.endObjectsLoading();
@@ -629,17 +630,17 @@ function newfrmFichaTeste6_svg()
     return retObj;
 end;
 
-local _frmFichaTeste6_svg = {
-    newEditor = newfrmFichaTeste6_svg, 
-    new = newfrmFichaTeste6_svg, 
-    name = "frmFichaTeste6_svg", 
+local _frmFichaTeste5_svg = {
+    newEditor = newfrmFichaTeste5_svg, 
+    new = newfrmFichaTeste5_svg, 
+    name = "frmFichaTeste5_svg", 
     dataType = "", 
     formType = "undefined", 
     formComponentName = "form", 
     title = "", 
     description=""};
 
-frmFichaTeste6_svg = _frmFichaTeste6_svg;
-Firecast.registrarForm(_frmFichaTeste6_svg);
+frmFichaTeste5_svg = _frmFichaTeste5_svg;
+Firecast.registrarForm(_frmFichaTeste5_svg);
 
-return _frmFichaTeste6_svg;
+return _frmFichaTeste5_svg;

@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form name="frmFichaTeste4_svg" align="client" theme="light" margins="{top=1}">
-    <style>#frmFichaTeste4_svg path {color: black; strokeColor: black; mode: stretch;} &#xD;
-#frmFichaTeste4_svg label {fontColor: black; textTrimming: none; wordWrap: false; autoSize: true;}</style>
     <scrollBox align="client">
         <rectangle width="1267" height="593" color="white">&#xD;
             <image left="0" top="0" width="1267" height="593" src="images/4.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
@@ -34,13 +32,13 @@
                 <edit transparent="true" fontSize="20" fontColor="#000000" horzTextAlign="center" vertTextAlign="trailing" left="0" top="0" width="180" height="39" field="gender_4" compilerOrder="14"/>
             </layout>&#xD;
 
-            <image field="type3_1" editable="true" style="proportional" animate="true" left="375" top="325" width="89" height="40" compilerOrder="15"/>&#xD;
+            <image field="type3_1" editable="true" style="autofit" animate="true" left="375" top="325" width="89" height="40" compilerOrder="15"/>&#xD;
 
-            <image field="type3_2" editable="true" style="proportional" animate="true" left="465" top="325" width="89" height="40" compilerOrder="16"/>&#xD;
+            <image field="type3_2" editable="true" style="autofit" animate="true" left="465" top="325" width="89" height="40" compilerOrder="16"/>&#xD;
 
-            <image field="type4_1" editable="true" style="proportional" animate="true" left="1018" top="325" width="89" height="40" compilerOrder="17"/>&#xD;
+            <image field="type4_1" editable="true" style="autofit" animate="true" left="1018" top="325" width="89" height="40" compilerOrder="17"/>&#xD;
 
-            <image field="type4_2" editable="true" style="proportional" animate="true" left="1108" top="325" width="89" height="40" compilerOrder="18"/>&#xD;
+            <image field="type4_2" editable="true" style="autofit" animate="true" left="1108" top="325" width="89" height="40" compilerOrder="18"/>&#xD;
 
             <image field="item_3" editable="true" style="proportional" animate="true" left="310" top="392" width="40" height="40" compilerOrder="19"/>&#xD;
 

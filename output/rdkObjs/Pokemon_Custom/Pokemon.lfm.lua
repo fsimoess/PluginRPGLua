@@ -31,7 +31,7 @@ local function constructNew_frmPokemon()
     obj:setDataType("Pokemon.DataType");
     obj:setTitle("Pokemon Custom");
     obj:setAlign("client");
-    obj:setTheme("light");
+    obj:setTheme("dark");
 
     obj.tabControl1 = GUI.fromHandle(_obj_newObject("tabControl"));
     obj.tabControl1:setParent(obj);
@@ -68,7 +68,7 @@ local function constructNew_frmPokemon()
     obj.image1:setTop(0);
     obj.image1:setWidth(1267);
     obj.image1:setHeight(593);
-    obj.image1:setSRC("/Pokemon/images/1.png");
+    obj.image1:setSRC("/Pokemon_Custom/images/1.png");
     obj.image1:setStyle("stretch");
     obj.image1:setOptimize(true);
     obj.image1:setName("image1");
@@ -250,7 +250,7 @@ local function constructNew_frmPokemon()
     obj.image3:setTop(0);
     obj.image3:setWidth(1267);
     obj.image3:setHeight(593);
-    obj.image3:setSRC("/Pokemon/images/2.png");
+    obj.image3:setSRC("/Pokemon_Custom/images/2.png");
     obj.image3:setStyle("stretch");
     obj.image3:setOptimize(true);
     obj.image3:setName("image3");
@@ -261,7 +261,7 @@ local function constructNew_frmPokemon()
     obj.image4:setEditable(true);
     obj.image4:setStyle("proportional");
     lfm_setPropAsString(obj.image4, "animate",  "true");
-    obj.image4:setLeft(286);
+    obj.image4:setLeft(280);
     obj.image4:setTop(181);
     obj.image4:setWidth(88);
     obj.image4:setHeight(88);
@@ -273,7 +273,7 @@ local function constructNew_frmPokemon()
     obj.image5:setEditable(true);
     obj.image5:setStyle("proportional");
     lfm_setPropAsString(obj.image5, "animate",  "true");
-    obj.image5:setLeft(376);
+    obj.image5:setLeft(370);
     obj.image5:setTop(181);
     obj.image5:setWidth(88);
     obj.image5:setHeight(88);
@@ -285,7 +285,7 @@ local function constructNew_frmPokemon()
     obj.image6:setEditable(true);
     obj.image6:setStyle("proportional");
     lfm_setPropAsString(obj.image6, "animate",  "true");
-    obj.image6:setLeft(466);
+    obj.image6:setLeft(460);
     obj.image6:setTop(181);
     obj.image6:setWidth(88);
     obj.image6:setHeight(88);
@@ -297,7 +297,7 @@ local function constructNew_frmPokemon()
     obj.image7:setEditable(true);
     obj.image7:setStyle("proportional");
     lfm_setPropAsString(obj.image7, "animate",  "true");
-    obj.image7:setLeft(556);
+    obj.image7:setLeft(550);
     obj.image7:setTop(181);
     obj.image7:setWidth(88);
     obj.image7:setHeight(88);
@@ -309,7 +309,7 @@ local function constructNew_frmPokemon()
     obj.image8:setEditable(true);
     obj.image8:setStyle("proportional");
     lfm_setPropAsString(obj.image8, "animate",  "true");
-    obj.image8:setLeft(646);
+    obj.image8:setLeft(640);
     obj.image8:setTop(181);
     obj.image8:setWidth(88);
     obj.image8:setHeight(88);
@@ -321,7 +321,7 @@ local function constructNew_frmPokemon()
     obj.image9:setEditable(true);
     obj.image9:setStyle("proportional");
     lfm_setPropAsString(obj.image9, "animate",  "true");
-    obj.image9:setLeft(736);
+    obj.image9:setLeft(730);
     obj.image9:setTop(181);
     obj.image9:setWidth(88);
     obj.image9:setHeight(88);
@@ -333,7 +333,7 @@ local function constructNew_frmPokemon()
     obj.image10:setEditable(true);
     obj.image10:setStyle("proportional");
     lfm_setPropAsString(obj.image10, "animate",  "true");
-    obj.image10:setLeft(826);
+    obj.image10:setLeft(820);
     obj.image10:setTop(181);
     obj.image10:setWidth(88);
     obj.image10:setHeight(88);
@@ -345,7 +345,7 @@ local function constructNew_frmPokemon()
     obj.image11:setEditable(true);
     obj.image11:setStyle("proportional");
     lfm_setPropAsString(obj.image11, "animate",  "true");
-    obj.image11:setLeft(916);
+    obj.image11:setLeft(910);
     obj.image11:setTop(181);
     obj.image11:setWidth(88);
     obj.image11:setHeight(88);
@@ -381,7 +381,7 @@ local function constructNew_frmPokemon()
     obj.image12:setTop(0);
     obj.image12:setWidth(1267);
     obj.image12:setHeight(593);
-    obj.image12:setSRC("/Pokemon/images/3.png");
+    obj.image12:setSRC("/Pokemon_Custom/images/3.png");
     obj.image12:setStyle("stretch");
     obj.image12:setOptimize(true);
     obj.image12:setName("image12");
@@ -723,7 +723,7 @@ local function constructNew_frmPokemon()
     obj.image37:setTop(0);
     obj.image37:setWidth(1267);
     obj.image37:setHeight(593);
-    obj.image37:setSRC("/Pokemon/images/4.png");
+    obj.image37:setSRC("/Pokemon_Custom/images/4.png");
     obj.image37:setStyle("stretch");
     obj.image37:setOptimize(true);
     obj.image37:setName("image37");
@@ -888,7 +888,7 @@ local function constructNew_frmPokemon()
     obj.image40:setParent(obj.rectangle4);
     obj.image40:setField("type1_1");
     obj.image40:setEditable(true);
-    obj.image40:setStyle("proportional");
+    obj.image40:setStyle("autoFit");
     lfm_setPropAsString(obj.image40, "animate",  "true");
     obj.image40:setLeft(375);
     obj.image40:setTop(325);
@@ -900,7 +900,7 @@ local function constructNew_frmPokemon()
     obj.image41:setParent(obj.rectangle4);
     obj.image41:setField("type1_2");
     obj.image41:setEditable(true);
-    obj.image41:setStyle("proportional");
+    obj.image41:setStyle("autoFit");
     lfm_setPropAsString(obj.image41, "animate",  "true");
     obj.image41:setLeft(465);
     obj.image41:setTop(325);
@@ -912,7 +912,7 @@ local function constructNew_frmPokemon()
     obj.image42:setParent(obj.rectangle4);
     obj.image42:setField("type2_1");
     obj.image42:setEditable(true);
-    obj.image42:setStyle("proportional");
+    obj.image42:setStyle("autoFit");
     lfm_setPropAsString(obj.image42, "animate",  "true");
     obj.image42:setLeft(1018);
     obj.image42:setTop(325);
@@ -924,7 +924,7 @@ local function constructNew_frmPokemon()
     obj.image43:setParent(obj.rectangle4);
     obj.image43:setField("type2_2");
     obj.image43:setEditable(true);
-    obj.image43:setStyle("proportional");
+    obj.image43:setStyle("autoFit");
     lfm_setPropAsString(obj.image43, "animate",  "true");
     obj.image43:setLeft(1108);
     obj.image43:setTop(325);
@@ -966,6 +966,7 @@ local function constructNew_frmPokemon()
 
     obj.edit13 = GUI.fromHandle(_obj_newObject("edit"));
     obj.edit13:setParent(obj.layout14);
+    obj.edit13:setText("Seu Exp");
     obj.edit13:setTransparent(true);
     obj.edit13:setVertTextAlign("trailing");
     obj.edit13:setHorzTextAlign("center");
@@ -1250,7 +1251,7 @@ local function constructNew_frmPokemon()
     obj.image46:setTop(0);
     obj.image46:setWidth(1267);
     obj.image46:setHeight(593);
-    obj.image46:setSRC("/Pokemon/images/4.png");
+    obj.image46:setSRC("/Pokemon_Custom/images/4.png");
     obj.image46:setStyle("stretch");
     obj.image46:setOptimize(true);
     obj.image46:setName("image46");
@@ -1415,7 +1416,7 @@ local function constructNew_frmPokemon()
     obj.image49:setParent(obj.rectangle5);
     obj.image49:setField("type3_1");
     obj.image49:setEditable(true);
-    obj.image49:setStyle("proportional");
+    obj.image49:setStyle("autoFit");
     lfm_setPropAsString(obj.image49, "animate",  "true");
     obj.image49:setLeft(375);
     obj.image49:setTop(325);
@@ -1427,7 +1428,7 @@ local function constructNew_frmPokemon()
     obj.image50:setParent(obj.rectangle5);
     obj.image50:setField("type3_2");
     obj.image50:setEditable(true);
-    obj.image50:setStyle("proportional");
+    obj.image50:setStyle("autoFit");
     lfm_setPropAsString(obj.image50, "animate",  "true");
     obj.image50:setLeft(465);
     obj.image50:setTop(325);
@@ -1439,7 +1440,7 @@ local function constructNew_frmPokemon()
     obj.image51:setParent(obj.rectangle5);
     obj.image51:setField("type4_1");
     obj.image51:setEditable(true);
-    obj.image51:setStyle("proportional");
+    obj.image51:setStyle("autoFit");
     lfm_setPropAsString(obj.image51, "animate",  "true");
     obj.image51:setLeft(1018);
     obj.image51:setTop(325);
@@ -1451,7 +1452,7 @@ local function constructNew_frmPokemon()
     obj.image52:setParent(obj.rectangle5);
     obj.image52:setField("type4_2");
     obj.image52:setEditable(true);
-    obj.image52:setStyle("proportional");
+    obj.image52:setStyle("autoFit");
     lfm_setPropAsString(obj.image52, "animate",  "true");
     obj.image52:setLeft(1108);
     obj.image52:setTop(325);
@@ -1777,7 +1778,7 @@ local function constructNew_frmPokemon()
     obj.image55:setTop(0);
     obj.image55:setWidth(1267);
     obj.image55:setHeight(593);
-    obj.image55:setSRC("/Pokemon/images/4.png");
+    obj.image55:setSRC("/Pokemon_Custom/images/4.png");
     obj.image55:setStyle("stretch");
     obj.image55:setOptimize(true);
     obj.image55:setName("image55");
@@ -1942,7 +1943,7 @@ local function constructNew_frmPokemon()
     obj.image58:setParent(obj.rectangle6);
     obj.image58:setField("type5_1");
     obj.image58:setEditable(true);
-    obj.image58:setStyle("proportional");
+    obj.image58:setStyle("autoFit");
     lfm_setPropAsString(obj.image58, "animate",  "true");
     obj.image58:setLeft(375);
     obj.image58:setTop(325);
@@ -1954,7 +1955,7 @@ local function constructNew_frmPokemon()
     obj.image59:setParent(obj.rectangle6);
     obj.image59:setField("type5_2");
     obj.image59:setEditable(true);
-    obj.image59:setStyle("proportional");
+    obj.image59:setStyle("autoFit");
     lfm_setPropAsString(obj.image59, "animate",  "true");
     obj.image59:setLeft(465);
     obj.image59:setTop(325);
@@ -1966,7 +1967,7 @@ local function constructNew_frmPokemon()
     obj.image60:setParent(obj.rectangle6);
     obj.image60:setField("type6_1");
     obj.image60:setEditable(true);
-    obj.image60:setStyle("proportional");
+    obj.image60:setStyle("autoFit");
     lfm_setPropAsString(obj.image60, "animate",  "true");
     obj.image60:setLeft(1018);
     obj.image60:setTop(325);
@@ -1978,7 +1979,7 @@ local function constructNew_frmPokemon()
     obj.image61:setParent(obj.rectangle6);
     obj.image61:setField("type6_2");
     obj.image61:setEditable(true);
-    obj.image61:setStyle("proportional");
+    obj.image61:setStyle("autoFit");
     lfm_setPropAsString(obj.image61, "animate",  "true");
     obj.image61:setLeft(1108);
     obj.image61:setTop(325);
@@ -2274,6 +2275,425 @@ local function constructNew_frmPokemon()
     obj.edit60:setField("atk_6_4");
     obj.edit60:setName("edit60");
 
+    obj.tab7 = GUI.fromHandle(_obj_newObject("tab"));
+    obj.tab7:setParent(obj.tabControl1);
+    obj.tab7:setTitle("Pokemon Boxes");
+    obj.tab7:setName("tab7");
+
+    obj.frmFichaTeste7_svg = GUI.fromHandle(_obj_newObject("form"));
+    obj.frmFichaTeste7_svg:setParent(obj.tab7);
+    obj.frmFichaTeste7_svg:setName("frmFichaTeste7_svg");
+    obj.frmFichaTeste7_svg:setAlign("client");
+    obj.frmFichaTeste7_svg:setTheme("light");
+    obj.frmFichaTeste7_svg:setMargins({top=1});
+
+    obj.scrollBox7 = GUI.fromHandle(_obj_newObject("scrollBox"));
+    obj.scrollBox7:setParent(obj.frmFichaTeste7_svg);
+    obj.scrollBox7:setAlign("client");
+    obj.scrollBox7:setName("scrollBox7");
+
+    obj.rectangle7 = GUI.fromHandle(_obj_newObject("rectangle"));
+    obj.rectangle7:setParent(obj.scrollBox7);
+    obj.rectangle7:setWidth(1267);
+    obj.rectangle7:setHeight(593);
+    obj.rectangle7:setColor("white");
+    obj.rectangle7:setName("rectangle7");
+
+    obj.image64 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image64:setParent(obj.rectangle7);
+    obj.image64:setLeft(0);
+    obj.image64:setTop(0);
+    obj.image64:setWidth(1267);
+    obj.image64:setHeight(593);
+    obj.image64:setSRC("/Pokemon_Custom/images/5.png");
+    obj.image64:setStyle("stretch");
+    obj.image64:setOptimize(true);
+    obj.image64:setName("image64");
+
+    obj.image65 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image65:setParent(obj.rectangle7);
+    obj.image65:setField("box1");
+    obj.image65:setEditable(true);
+    obj.image65:setStyle("proportional");
+    lfm_setPropAsString(obj.image65, "animate",  "true");
+    obj.image65:setLeft(280);
+    obj.image65:setTop(181);
+    obj.image65:setWidth(88);
+    obj.image65:setHeight(88);
+    obj.image65:setName("image65");
+
+    obj.image66 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image66:setParent(obj.rectangle7);
+    obj.image66:setField("box2");
+    obj.image66:setEditable(true);
+    obj.image66:setStyle("proportional");
+    lfm_setPropAsString(obj.image66, "animate",  "true");
+    obj.image66:setLeft(370);
+    obj.image66:setTop(181);
+    obj.image66:setWidth(88);
+    obj.image66:setHeight(88);
+    obj.image66:setName("image66");
+
+    obj.image67 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image67:setParent(obj.rectangle7);
+    obj.image67:setField("box3");
+    obj.image67:setEditable(true);
+    obj.image67:setStyle("proportional");
+    lfm_setPropAsString(obj.image67, "animate",  "true");
+    obj.image67:setLeft(460);
+    obj.image67:setTop(181);
+    obj.image67:setWidth(88);
+    obj.image67:setHeight(88);
+    obj.image67:setName("image67");
+
+    obj.image68 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image68:setParent(obj.rectangle7);
+    obj.image68:setField("box4");
+    obj.image68:setEditable(true);
+    obj.image68:setStyle("proportional");
+    lfm_setPropAsString(obj.image68, "animate",  "true");
+    obj.image68:setLeft(550);
+    obj.image68:setTop(181);
+    obj.image68:setWidth(88);
+    obj.image68:setHeight(88);
+    obj.image68:setName("image68");
+
+    obj.image69 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image69:setParent(obj.rectangle7);
+    obj.image69:setField("box5");
+    obj.image69:setEditable(true);
+    obj.image69:setStyle("proportional");
+    lfm_setPropAsString(obj.image69, "animate",  "true");
+    obj.image69:setLeft(640);
+    obj.image69:setTop(181);
+    obj.image69:setWidth(88);
+    obj.image69:setHeight(88);
+    obj.image69:setName("image69");
+
+    obj.image70 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image70:setParent(obj.rectangle7);
+    obj.image70:setField("box6");
+    obj.image70:setEditable(true);
+    obj.image70:setStyle("proportional");
+    lfm_setPropAsString(obj.image70, "animate",  "true");
+    obj.image70:setLeft(730);
+    obj.image70:setTop(181);
+    obj.image70:setWidth(88);
+    obj.image70:setHeight(88);
+    obj.image70:setName("image70");
+
+    obj.image71 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image71:setParent(obj.rectangle7);
+    obj.image71:setField("box7");
+    obj.image71:setEditable(true);
+    obj.image71:setStyle("proportional");
+    lfm_setPropAsString(obj.image71, "animate",  "true");
+    obj.image71:setLeft(820);
+    obj.image71:setTop(181);
+    obj.image71:setWidth(88);
+    obj.image71:setHeight(88);
+    obj.image71:setName("image71");
+
+    obj.image72 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image72:setParent(obj.rectangle7);
+    obj.image72:setField("box8");
+    obj.image72:setEditable(true);
+    obj.image72:setStyle("proportional");
+    lfm_setPropAsString(obj.image72, "animate",  "true");
+    obj.image72:setLeft(910);
+    obj.image72:setTop(181);
+    obj.image72:setWidth(88);
+    obj.image72:setHeight(88);
+    obj.image72:setName("image72");
+
+    obj.image73 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image73:setParent(obj.rectangle7);
+    obj.image73:setField("box9");
+    obj.image73:setEditable(true);
+    obj.image73:setStyle("proportional");
+    lfm_setPropAsString(obj.image73, "animate",  "true");
+    obj.image73:setLeft(280);
+    obj.image73:setTop(271);
+    obj.image73:setWidth(88);
+    obj.image73:setHeight(88);
+    obj.image73:setName("image73");
+
+    obj.image74 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image74:setParent(obj.rectangle7);
+    obj.image74:setField("box10");
+    obj.image74:setEditable(true);
+    obj.image74:setStyle("proportional");
+    lfm_setPropAsString(obj.image74, "animate",  "true");
+    obj.image74:setLeft(370);
+    obj.image74:setTop(271);
+    obj.image74:setWidth(88);
+    obj.image74:setHeight(88);
+    obj.image74:setName("image74");
+
+    obj.image75 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image75:setParent(obj.rectangle7);
+    obj.image75:setField("box11");
+    obj.image75:setEditable(true);
+    obj.image75:setStyle("proportional");
+    lfm_setPropAsString(obj.image75, "animate",  "true");
+    obj.image75:setLeft(460);
+    obj.image75:setTop(271);
+    obj.image75:setWidth(88);
+    obj.image75:setHeight(88);
+    obj.image75:setName("image75");
+
+    obj.image76 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image76:setParent(obj.rectangle7);
+    obj.image76:setField("box12");
+    obj.image76:setEditable(true);
+    obj.image76:setStyle("proportional");
+    lfm_setPropAsString(obj.image76, "animate",  "true");
+    obj.image76:setLeft(550);
+    obj.image76:setTop(271);
+    obj.image76:setWidth(88);
+    obj.image76:setHeight(88);
+    obj.image76:setName("image76");
+
+    obj.image77 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image77:setParent(obj.rectangle7);
+    obj.image77:setField("box13");
+    obj.image77:setEditable(true);
+    obj.image77:setStyle("proportional");
+    lfm_setPropAsString(obj.image77, "animate",  "true");
+    obj.image77:setLeft(640);
+    obj.image77:setTop(271);
+    obj.image77:setWidth(88);
+    obj.image77:setHeight(88);
+    obj.image77:setName("image77");
+
+    obj.image78 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image78:setParent(obj.rectangle7);
+    obj.image78:setField("box14");
+    obj.image78:setEditable(true);
+    obj.image78:setStyle("proportional");
+    lfm_setPropAsString(obj.image78, "animate",  "true");
+    obj.image78:setLeft(730);
+    obj.image78:setTop(271);
+    obj.image78:setWidth(88);
+    obj.image78:setHeight(88);
+    obj.image78:setName("image78");
+
+    obj.image79 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image79:setParent(obj.rectangle7);
+    obj.image79:setField("box15");
+    obj.image79:setEditable(true);
+    obj.image79:setStyle("proportional");
+    lfm_setPropAsString(obj.image79, "animate",  "true");
+    obj.image79:setLeft(820);
+    obj.image79:setTop(271);
+    obj.image79:setWidth(88);
+    obj.image79:setHeight(88);
+    obj.image79:setName("image79");
+
+    obj.image80 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image80:setParent(obj.rectangle7);
+    obj.image80:setField("box16");
+    obj.image80:setEditable(true);
+    obj.image80:setStyle("proportional");
+    lfm_setPropAsString(obj.image80, "animate",  "true");
+    obj.image80:setLeft(910);
+    obj.image80:setTop(271);
+    obj.image80:setWidth(88);
+    obj.image80:setHeight(88);
+    obj.image80:setName("image80");
+
+    obj.image81 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image81:setParent(obj.rectangle7);
+    obj.image81:setField("box17");
+    obj.image81:setEditable(true);
+    obj.image81:setStyle("proportional");
+    lfm_setPropAsString(obj.image81, "animate",  "true");
+    obj.image81:setLeft(280);
+    obj.image81:setTop(361);
+    obj.image81:setWidth(88);
+    obj.image81:setHeight(88);
+    obj.image81:setName("image81");
+
+    obj.image82 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image82:setParent(obj.rectangle7);
+    obj.image82:setField("box18");
+    obj.image82:setEditable(true);
+    obj.image82:setStyle("proportional");
+    lfm_setPropAsString(obj.image82, "animate",  "true");
+    obj.image82:setLeft(370);
+    obj.image82:setTop(361);
+    obj.image82:setWidth(88);
+    obj.image82:setHeight(88);
+    obj.image82:setName("image82");
+
+    obj.image83 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image83:setParent(obj.rectangle7);
+    obj.image83:setField("box19");
+    obj.image83:setEditable(true);
+    obj.image83:setStyle("proportional");
+    lfm_setPropAsString(obj.image83, "animate",  "true");
+    obj.image83:setLeft(460);
+    obj.image83:setTop(361);
+    obj.image83:setWidth(88);
+    obj.image83:setHeight(88);
+    obj.image83:setName("image83");
+
+    obj.image84 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image84:setParent(obj.rectangle7);
+    obj.image84:setField("box20");
+    obj.image84:setEditable(true);
+    obj.image84:setStyle("proportional");
+    lfm_setPropAsString(obj.image84, "animate",  "true");
+    obj.image84:setLeft(550);
+    obj.image84:setTop(361);
+    obj.image84:setWidth(88);
+    obj.image84:setHeight(88);
+    obj.image84:setName("image84");
+
+    obj.image85 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image85:setParent(obj.rectangle7);
+    obj.image85:setField("box21");
+    obj.image85:setEditable(true);
+    obj.image85:setStyle("proportional");
+    lfm_setPropAsString(obj.image85, "animate",  "true");
+    obj.image85:setLeft(640);
+    obj.image85:setTop(361);
+    obj.image85:setWidth(88);
+    obj.image85:setHeight(88);
+    obj.image85:setName("image85");
+
+    obj.image86 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image86:setParent(obj.rectangle7);
+    obj.image86:setField("box22");
+    obj.image86:setEditable(true);
+    obj.image86:setStyle("proportional");
+    lfm_setPropAsString(obj.image86, "animate",  "true");
+    obj.image86:setLeft(730);
+    obj.image86:setTop(361);
+    obj.image86:setWidth(88);
+    obj.image86:setHeight(88);
+    obj.image86:setName("image86");
+
+    obj.image87 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image87:setParent(obj.rectangle7);
+    obj.image87:setField("box23");
+    obj.image87:setEditable(true);
+    obj.image87:setStyle("proportional");
+    lfm_setPropAsString(obj.image87, "animate",  "true");
+    obj.image87:setLeft(820);
+    obj.image87:setTop(361);
+    obj.image87:setWidth(88);
+    obj.image87:setHeight(88);
+    obj.image87:setName("image87");
+
+    obj.image88 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image88:setParent(obj.rectangle7);
+    obj.image88:setField("box24");
+    obj.image88:setEditable(true);
+    obj.image88:setStyle("proportional");
+    lfm_setPropAsString(obj.image88, "animate",  "true");
+    obj.image88:setLeft(910);
+    obj.image88:setTop(361);
+    obj.image88:setWidth(88);
+    obj.image88:setHeight(88);
+    obj.image88:setName("image88");
+
+    obj.image89 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image89:setParent(obj.rectangle7);
+    obj.image89:setField("box25");
+    obj.image89:setEditable(true);
+    obj.image89:setStyle("proportional");
+    lfm_setPropAsString(obj.image89, "animate",  "true");
+    obj.image89:setLeft(280);
+    obj.image89:setTop(452);
+    obj.image89:setWidth(88);
+    obj.image89:setHeight(88);
+    obj.image89:setName("image89");
+
+    obj.image90 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image90:setParent(obj.rectangle7);
+    obj.image90:setField("box26");
+    obj.image90:setEditable(true);
+    obj.image90:setStyle("proportional");
+    lfm_setPropAsString(obj.image90, "animate",  "true");
+    obj.image90:setLeft(370);
+    obj.image90:setTop(452);
+    obj.image90:setWidth(88);
+    obj.image90:setHeight(88);
+    obj.image90:setName("image90");
+
+    obj.image91 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image91:setParent(obj.rectangle7);
+    obj.image91:setField("box27");
+    obj.image91:setEditable(true);
+    obj.image91:setStyle("proportional");
+    lfm_setPropAsString(obj.image91, "animate",  "true");
+    obj.image91:setLeft(460);
+    obj.image91:setTop(452);
+    obj.image91:setWidth(88);
+    obj.image91:setHeight(88);
+    obj.image91:setName("image91");
+
+    obj.image92 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image92:setParent(obj.rectangle7);
+    obj.image92:setField("box28");
+    obj.image92:setEditable(true);
+    obj.image92:setStyle("proportional");
+    lfm_setPropAsString(obj.image92, "animate",  "true");
+    obj.image92:setLeft(550);
+    obj.image92:setTop(452);
+    obj.image92:setWidth(88);
+    obj.image92:setHeight(88);
+    obj.image92:setName("image92");
+
+    obj.image93 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image93:setParent(obj.rectangle7);
+    obj.image93:setField("box29");
+    obj.image93:setEditable(true);
+    obj.image93:setStyle("proportional");
+    lfm_setPropAsString(obj.image93, "animate",  "true");
+    obj.image93:setLeft(640);
+    obj.image93:setTop(452);
+    obj.image93:setWidth(88);
+    obj.image93:setHeight(88);
+    obj.image93:setName("image93");
+
+    obj.image94 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image94:setParent(obj.rectangle7);
+    obj.image94:setField("box30");
+    obj.image94:setEditable(true);
+    obj.image94:setStyle("proportional");
+    lfm_setPropAsString(obj.image94, "animate",  "true");
+    obj.image94:setLeft(730);
+    obj.image94:setTop(452);
+    obj.image94:setWidth(88);
+    obj.image94:setHeight(88);
+    obj.image94:setName("image94");
+
+    obj.image95 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image95:setParent(obj.rectangle7);
+    obj.image95:setField("box31");
+    obj.image95:setEditable(true);
+    obj.image95:setStyle("proportional");
+    lfm_setPropAsString(obj.image95, "animate",  "true");
+    obj.image95:setLeft(820);
+    obj.image95:setTop(452);
+    obj.image95:setWidth(88);
+    obj.image95:setHeight(88);
+    obj.image95:setName("image95");
+
+    obj.image96 = GUI.fromHandle(_obj_newObject("image"));
+    obj.image96:setParent(obj.rectangle7);
+    obj.image96:setField("box32");
+    obj.image96:setEditable(true);
+    obj.image96:setStyle("proportional");
+    lfm_setPropAsString(obj.image96, "animate",  "true");
+    obj.image96:setLeft(910);
+    obj.image96:setTop(452);
+    obj.image96:setWidth(88);
+    obj.image96:setHeight(88);
+    obj.image96:setName("image96");
+
     function obj:_releaseEvents()
     end;
 
@@ -2286,6 +2706,7 @@ local function constructNew_frmPokemon()
           self:setNodeDatabase(nil);
         end;
 
+        if self.image74 ~= nil then self.image74:destroy(); self.image74 = nil; end;
         if self.frmFichaTeste6_svg ~= nil then self.frmFichaTeste6_svg:destroy(); self.frmFichaTeste6_svg = nil; end;
         if self.layout15 ~= nil then self.layout15:destroy(); self.layout15 = nil; end;
         if self.edit41 ~= nil then self.edit41:destroy(); self.edit41 = nil; end;
@@ -2296,6 +2717,7 @@ local function constructNew_frmPokemon()
         if self.frmFichaTeste2_svg ~= nil then self.frmFichaTeste2_svg:destroy(); self.frmFichaTeste2_svg = nil; end;
         if self.edit9 ~= nil then self.edit9:destroy(); self.edit9 = nil; end;
         if self.edit33 ~= nil then self.edit33:destroy(); self.edit33 = nil; end;
+        if self.image94 ~= nil then self.image94:destroy(); self.image94 = nil; end;
         if self.image5 ~= nil then self.image5:destroy(); self.image5 = nil; end;
         if self.edit29 ~= nil then self.edit29:destroy(); self.edit29 = nil; end;
         if self.image51 ~= nil then self.image51:destroy(); self.image51 = nil; end;
@@ -2305,6 +2727,7 @@ local function constructNew_frmPokemon()
         if self.layout47 ~= nil then self.layout47:destroy(); self.layout47 = nil; end;
         if self.image20 ~= nil then self.image20:destroy(); self.image20 = nil; end;
         if self.layout41 ~= nil then self.layout41:destroy(); self.layout41 = nil; end;
+        if self.image80 ~= nil then self.image80:destroy(); self.image80 = nil; end;
         if self.layout38 ~= nil then self.layout38:destroy(); self.layout38 = nil; end;
         if self.layout24 ~= nil then self.layout24:destroy(); self.layout24 = nil; end;
         if self.layout13 ~= nil then self.layout13:destroy(); self.layout13 = nil; end;
@@ -2319,6 +2742,8 @@ local function constructNew_frmPokemon()
         if self.edit11 ~= nil then self.edit11:destroy(); self.edit11 = nil; end;
         if self.image1 ~= nil then self.image1:destroy(); self.image1 = nil; end;
         if self.edit19 ~= nil then self.edit19:destroy(); self.edit19 = nil; end;
+        if self.image70 ~= nil then self.image70:destroy(); self.image70 = nil; end;
+        if self.image85 ~= nil then self.image85:destroy(); self.image85 = nil; end;
         if self.edit5 ~= nil then self.edit5:destroy(); self.edit5 = nil; end;
         if self.layout54 ~= nil then self.layout54:destroy(); self.layout54 = nil; end;
         if self.image60 ~= nil then self.image60:destroy(); self.image60 = nil; end;
@@ -2326,10 +2751,12 @@ local function constructNew_frmPokemon()
         if self.layout32 ~= nil then self.layout32:destroy(); self.layout32 = nil; end;
         if self.scrollBox2 ~= nil then self.scrollBox2:destroy(); self.scrollBox2 = nil; end;
         if self.tab5 ~= nil then self.tab5:destroy(); self.tab5 = nil; end;
+        if self.image65 ~= nil then self.image65:destroy(); self.image65 = nil; end;
         if self.layout37 ~= nil then self.layout37:destroy(); self.layout37 = nil; end;
         if self.image11 ~= nil then self.image11:destroy(); self.image11 = nil; end;
         if self.image61 ~= nil then self.image61:destroy(); self.image61 = nil; end;
         if self.layout36 ~= nil then self.layout36:destroy(); self.layout36 = nil; end;
+        if self.image81 ~= nil then self.image81:destroy(); self.image81 = nil; end;
         if self.layout52 ~= nil then self.layout52:destroy(); self.layout52 = nil; end;
         if self.image56 ~= nil then self.image56:destroy(); self.image56 = nil; end;
         if self.edit10 ~= nil then self.edit10:destroy(); self.edit10 = nil; end;
@@ -2337,10 +2764,14 @@ local function constructNew_frmPokemon()
         if self.edit31 ~= nil then self.edit31:destroy(); self.edit31 = nil; end;
         if self.image29 ~= nil then self.image29:destroy(); self.image29 = nil; end;
         if self.edit1 ~= nil then self.edit1:destroy(); self.edit1 = nil; end;
+        if self.image67 ~= nil then self.image67:destroy(); self.image67 = nil; end;
+        if self.image79 ~= nil then self.image79:destroy(); self.image79 = nil; end;
         if self.edit52 ~= nil then self.edit52:destroy(); self.edit52 = nil; end;
         if self.image42 ~= nil then self.image42:destroy(); self.image42 = nil; end;
         if self.layout34 ~= nil then self.layout34:destroy(); self.layout34 = nil; end;
+        if self.image88 ~= nil then self.image88:destroy(); self.image88 = nil; end;
         if self.image27 ~= nil then self.image27:destroy(); self.image27 = nil; end;
+        if self.rectangle7 ~= nil then self.rectangle7:destroy(); self.rectangle7 = nil; end;
         if self.layout4 ~= nil then self.layout4:destroy(); self.layout4 = nil; end;
         if self.image9 ~= nil then self.image9:destroy(); self.image9 = nil; end;
         if self.image3 ~= nil then self.image3:destroy(); self.image3 = nil; end;
@@ -2350,24 +2781,29 @@ local function constructNew_frmPokemon()
         if self.edit58 ~= nil then self.edit58:destroy(); self.edit58 = nil; end;
         if self.image8 ~= nil then self.image8:destroy(); self.image8 = nil; end;
         if self.layout61 ~= nil then self.layout61:destroy(); self.layout61 = nil; end;
+        if self.image86 ~= nil then self.image86:destroy(); self.image86 = nil; end;
         if self.layout5 ~= nil then self.layout5:destroy(); self.layout5 = nil; end;
         if self.layout20 ~= nil then self.layout20:destroy(); self.layout20 = nil; end;
         if self.edit23 ~= nil then self.edit23:destroy(); self.edit23 = nil; end;
         if self.layout55 ~= nil then self.layout55:destroy(); self.layout55 = nil; end;
         if self.layout18 ~= nil then self.layout18:destroy(); self.layout18 = nil; end;
+        if self.tab7 ~= nil then self.tab7:destroy(); self.tab7 = nil; end;
         if self.rectangle2 ~= nil then self.rectangle2:destroy(); self.rectangle2 = nil; end;
         if self.rectangle6 ~= nil then self.rectangle6:destroy(); self.rectangle6 = nil; end;
+        if self.image95 ~= nil then self.image95:destroy(); self.image95 = nil; end;
         if self.edit40 ~= nil then self.edit40:destroy(); self.edit40 = nil; end;
         if self.tabControl1 ~= nil then self.tabControl1:destroy(); self.tabControl1 = nil; end;
         if self.image10 ~= nil then self.image10:destroy(); self.image10 = nil; end;
         if self.image41 ~= nil then self.image41:destroy(); self.image41 = nil; end;
         if self.image47 ~= nil then self.image47:destroy(); self.image47 = nil; end;
+        if self.image78 ~= nil then self.image78:destroy(); self.image78 = nil; end;
         if self.edit38 ~= nil then self.edit38:destroy(); self.edit38 = nil; end;
         if self.image37 ~= nil then self.image37:destroy(); self.image37 = nil; end;
         if self.layout49 ~= nil then self.layout49:destroy(); self.layout49 = nil; end;
         if self.image22 ~= nil then self.image22:destroy(); self.image22 = nil; end;
         if self.image49 ~= nil then self.image49:destroy(); self.image49 = nil; end;
         if self.layout35 ~= nil then self.layout35:destroy(); self.layout35 = nil; end;
+        if self.image91 ~= nil then self.image91:destroy(); self.image91 = nil; end;
         if self.scrollBox3 ~= nil then self.scrollBox3:destroy(); self.scrollBox3 = nil; end;
         if self.layout11 ~= nil then self.layout11:destroy(); self.layout11 = nil; end;
         if self.image52 ~= nil then self.image52:destroy(); self.image52 = nil; end;
@@ -2375,6 +2811,8 @@ local function constructNew_frmPokemon()
         if self.textEditor1 ~= nil then self.textEditor1:destroy(); self.textEditor1 = nil; end;
         if self.edit6 ~= nil then self.edit6:destroy(); self.edit6 = nil; end;
         if self.image55 ~= nil then self.image55:destroy(); self.image55 = nil; end;
+        if self.image83 ~= nil then self.image83:destroy(); self.image83 = nil; end;
+        if self.image92 ~= nil then self.image92:destroy(); self.image92 = nil; end;
         if self.edit3 ~= nil then self.edit3:destroy(); self.edit3 = nil; end;
         if self.layout33 ~= nil then self.layout33:destroy(); self.layout33 = nil; end;
         if self.edit49 ~= nil then self.edit49:destroy(); self.edit49 = nil; end;
@@ -2384,6 +2822,7 @@ local function constructNew_frmPokemon()
         if self.layout16 ~= nil then self.layout16:destroy(); self.layout16 = nil; end;
         if self.layout21 ~= nil then self.layout21:destroy(); self.layout21 = nil; end;
         if self.scrollBox5 ~= nil then self.scrollBox5:destroy(); self.scrollBox5 = nil; end;
+        if self.image68 ~= nil then self.image68:destroy(); self.image68 = nil; end;
         if self.image18 ~= nil then self.image18:destroy(); self.image18 = nil; end;
         if self.layout51 ~= nil then self.layout51:destroy(); self.layout51 = nil; end;
         if self.edit18 ~= nil then self.edit18:destroy(); self.edit18 = nil; end;
@@ -2394,16 +2833,21 @@ local function constructNew_frmPokemon()
         if self.edit60 ~= nil then self.edit60:destroy(); self.edit60 = nil; end;
         if self.image34 ~= nil then self.image34:destroy(); self.image34 = nil; end;
         if self.tab6 ~= nil then self.tab6:destroy(); self.tab6 = nil; end;
+        if self.frmFichaTeste7_svg ~= nil then self.frmFichaTeste7_svg:destroy(); self.frmFichaTeste7_svg = nil; end;
+        if self.image82 ~= nil then self.image82:destroy(); self.image82 = nil; end;
         if self.image19 ~= nil then self.image19:destroy(); self.image19 = nil; end;
         if self.tab3 ~= nil then self.tab3:destroy(); self.tab3 = nil; end;
         if self.layout39 ~= nil then self.layout39:destroy(); self.layout39 = nil; end;
         if self.layout43 ~= nil then self.layout43:destroy(); self.layout43 = nil; end;
         if self.edit46 ~= nil then self.edit46:destroy(); self.edit46 = nil; end;
         if self.image32 ~= nil then self.image32:destroy(); self.image32 = nil; end;
+        if self.scrollBox7 ~= nil then self.scrollBox7:destroy(); self.scrollBox7 = nil; end;
+        if self.image64 ~= nil then self.image64:destroy(); self.image64 = nil; end;
         if self.layout30 ~= nil then self.layout30:destroy(); self.layout30 = nil; end;
         if self.edit7 ~= nil then self.edit7:destroy(); self.edit7 = nil; end;
         if self.layout57 ~= nil then self.layout57:destroy(); self.layout57 = nil; end;
         if self.layout60 ~= nil then self.layout60:destroy(); self.layout60 = nil; end;
+        if self.image96 ~= nil then self.image96:destroy(); self.image96 = nil; end;
         if self.edit12 ~= nil then self.edit12:destroy(); self.edit12 = nil; end;
         if self.image54 ~= nil then self.image54:destroy(); self.image54 = nil; end;
         if self.layout59 ~= nil then self.layout59:destroy(); self.layout59 = nil; end;
@@ -2414,6 +2858,7 @@ local function constructNew_frmPokemon()
         if self.edit57 ~= nil then self.edit57:destroy(); self.edit57 = nil; end;
         if self.image2 ~= nil then self.image2:destroy(); self.image2 = nil; end;
         if self.image46 ~= nil then self.image46:destroy(); self.image46 = nil; end;
+        if self.image77 ~= nil then self.image77:destroy(); self.image77 = nil; end;
         if self.layout3 ~= nil then self.layout3:destroy(); self.layout3 = nil; end;
         if self.image62 ~= nil then self.image62:destroy(); self.image62 = nil; end;
         if self.edit54 ~= nil then self.edit54:destroy(); self.edit54 = nil; end;
@@ -2437,21 +2882,29 @@ local function constructNew_frmPokemon()
         if self.image57 ~= nil then self.image57:destroy(); self.image57 = nil; end;
         if self.image35 ~= nil then self.image35:destroy(); self.image35 = nil; end;
         if self.image39 ~= nil then self.image39:destroy(); self.image39 = nil; end;
+        if self.image89 ~= nil then self.image89:destroy(); self.image89 = nil; end;
         if self.image12 ~= nil then self.image12:destroy(); self.image12 = nil; end;
         if self.image24 ~= nil then self.image24:destroy(); self.image24 = nil; end;
+        if self.image66 ~= nil then self.image66:destroy(); self.image66 = nil; end;
+        if self.image93 ~= nil then self.image93:destroy(); self.image93 = nil; end;
+        if self.image90 ~= nil then self.image90:destroy(); self.image90 = nil; end;
         if self.layout26 ~= nil then self.layout26:destroy(); self.layout26 = nil; end;
+        if self.image69 ~= nil then self.image69:destroy(); self.image69 = nil; end;
         if self.frmFichaTeste4_svg ~= nil then self.frmFichaTeste4_svg:destroy(); self.frmFichaTeste4_svg = nil; end;
         if self.edit45 ~= nil then self.edit45:destroy(); self.edit45 = nil; end;
         if self.edit8 ~= nil then self.edit8:destroy(); self.edit8 = nil; end;
         if self.layout27 ~= nil then self.layout27:destroy(); self.layout27 = nil; end;
         if self.image40 ~= nil then self.image40:destroy(); self.image40 = nil; end;
+        if self.image87 ~= nil then self.image87:destroy(); self.image87 = nil; end;
         if self.edit53 ~= nil then self.edit53:destroy(); self.edit53 = nil; end;
+        if self.image84 ~= nil then self.image84:destroy(); self.image84 = nil; end;
         if self.layout28 ~= nil then self.layout28:destroy(); self.layout28 = nil; end;
         if self.layout44 ~= nil then self.layout44:destroy(); self.layout44 = nil; end;
         if self.layout19 ~= nil then self.layout19:destroy(); self.layout19 = nil; end;
         if self.edit2 ~= nil then self.edit2:destroy(); self.edit2 = nil; end;
         if self.image16 ~= nil then self.image16:destroy(); self.image16 = nil; end;
         if self.image59 ~= nil then self.image59:destroy(); self.image59 = nil; end;
+        if self.image75 ~= nil then self.image75:destroy(); self.image75 = nil; end;
         if self.edit30 ~= nil then self.edit30:destroy(); self.edit30 = nil; end;
         if self.tab4 ~= nil then self.tab4:destroy(); self.tab4 = nil; end;
         if self.edit21 ~= nil then self.edit21:destroy(); self.edit21 = nil; end;
@@ -2459,9 +2912,11 @@ local function constructNew_frmPokemon()
         if self.edit55 ~= nil then self.edit55:destroy(); self.edit55 = nil; end;
         if self.edit43 ~= nil then self.edit43:destroy(); self.edit43 = nil; end;
         if self.image26 ~= nil then self.image26:destroy(); self.image26 = nil; end;
+        if self.image73 ~= nil then self.image73:destroy(); self.image73 = nil; end;
         if self.layout53 ~= nil then self.layout53:destroy(); self.layout53 = nil; end;
         if self.edit13 ~= nil then self.edit13:destroy(); self.edit13 = nil; end;
         if self.edit39 ~= nil then self.edit39:destroy(); self.edit39 = nil; end;
+        if self.image76 ~= nil then self.image76:destroy(); self.image76 = nil; end;
         if self.rectangle3 ~= nil then self.rectangle3:destroy(); self.rectangle3 = nil; end;
         if self.image17 ~= nil then self.image17:destroy(); self.image17 = nil; end;
         if self.edit37 ~= nil then self.edit37:destroy(); self.edit37 = nil; end;
@@ -2474,8 +2929,10 @@ local function constructNew_frmPokemon()
         if self.frmFichaTeste5_svg ~= nil then self.frmFichaTeste5_svg:destroy(); self.frmFichaTeste5_svg = nil; end;
         if self.scrollBox6 ~= nil then self.scrollBox6:destroy(); self.scrollBox6 = nil; end;
         if self.layout29 ~= nil then self.layout29:destroy(); self.layout29 = nil; end;
+        if self.image72 ~= nil then self.image72:destroy(); self.image72 = nil; end;
         if self.edit15 ~= nil then self.edit15:destroy(); self.edit15 = nil; end;
         if self.layout40 ~= nil then self.layout40:destroy(); self.layout40 = nil; end;
+        if self.image71 ~= nil then self.image71:destroy(); self.image71 = nil; end;
         if self.edit42 ~= nil then self.edit42:destroy(); self.edit42 = nil; end;
         if self.edit22 ~= nil then self.edit22:destroy(); self.edit22 = nil; end;
         if self.image15 ~= nil then self.image15:destroy(); self.image15 = nil; end;

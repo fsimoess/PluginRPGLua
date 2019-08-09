@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form name="frmFichaTeste7_svg" align="client" theme="light" margins="{top=1}">
+    <scrollBox align="client">
+        <rectangle width="1267" height="593" color="white">&#xD;
+            <image left="0" top="0" width="1267" height="593" src="images/5.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
+            <image field="box1" editable="true" style="proportional" animate="true" left="280" top="181" width="88" height="88" compilerOrder="1"/>&#xD;
+            <image field="box2" editable="true" style="proportional" animate="true" left="370" top="181" width="88" height="88" compilerOrder="2"/>&#xD;
+            <image field="box3" editable="true" style="proportional" animate="true" left="460" top="181" width="88" height="88" compilerOrder="3"/>&#xD;
+            <image field="box4" editable="true" style="proportional" animate="true" left="550" top="181" width="88" height="88" compilerOrder="4"/>&#xD;
+            <image field="box5" editable="true" style="proportional" animate="true" left="640" top="181" width="88" height="88" compilerOrder="5"/>&#xD;
+            <image field="box6" editable="true" style="proportional" animate="true" left="730" top="181" width="88" height="88" compilerOrder="6"/>&#xD;
+            <image field="box7" editable="true" style="proportional" animate="true" left="820" top="181" width="88" height="88" compilerOrder="7"/>&#xD;
+            <image field="box8" editable="true" style="proportional" animate="true" left="910" top="181" width="88" height="88" compilerOrder="8"/>&#xD;
+            <image field="box9" editable="true" style="proportional" animate="true" left="280" top="271" width="88" height="88" compilerOrder="9"/>&#xD;
+            <image field="box10" editable="true" style="proportional" animate="true" left="370" top="271" width="88" height="88" compilerOrder="10"/>&#xD;
+            <image field="box11" editable="true" style="proportional" animate="true" left="460" top="271" width="88" height="88" compilerOrder="11"/>&#xD;
+            <image field="box12" editable="true" style="proportional" animate="true" left="550" top="271" width="88" height="88" compilerOrder="12"/>&#xD;
+            <image field="box13" editable="true" style="proportional" animate="true" left="640" top="271" width="88" height="88" compilerOrder="13"/>&#xD;
+            <image field="box14" editable="true" style="proportional" animate="true" left="730" top="271" width="88" height="88" compilerOrder="14"/>&#xD;
+            <image field="box15" editable="true" style="proportional" animate="true" left="820" top="271" width="88" height="88" compilerOrder="15"/>&#xD;
+            <image field="box16" editable="true" style="proportional" animate="true" left="910" top="271" width="88" height="88" compilerOrder="16"/>&#xD;
+            <image field="box17" editable="true" style="proportional" animate="true" left="280" top="361" width="88" height="88" compilerOrder="17"/>&#xD;
+            <image field="box18" editable="true" style="proportional" animate="true" left="370" top="361" width="88" height="88" compilerOrder="18"/>&#xD;
+            <image field="box19" editable="true" style="proportional" animate="true" left="460" top="361" width="88" height="88" compilerOrder="19"/>&#xD;
+            <image field="box20" editable="true" style="proportional" animate="true" left="550" top="361" width="88" height="88" compilerOrder="20"/>&#xD;
+            <image field="box21" editable="true" style="proportional" animate="true" left="640" top="361" width="88" height="88" compilerOrder="21"/>&#xD;
+            <image field="box22" editable="true" style="proportional" animate="true" left="730" top="361" width="88" height="88" compilerOrder="22"/>&#xD;
+            <image field="box23" editable="true" style="proportional" animate="true" left="820" top="361" width="88" height="88" compilerOrder="23"/>&#xD;
+            <image field="box24" editable="true" style="proportional" animate="true" left="910" top="361" width="88" height="88" compilerOrder="24"/>&#xD;
+            <image field="box25" editable="true" style="proportional" animate="true" left="280" top="452" width="88" height="88" compilerOrder="25"/>&#xD;
+            <image field="box26" editable="true" style="proportional" animate="true" left="370" top="452" width="88" height="88" compilerOrder="26"/>&#xD;
+            <image field="box27" editable="true" style="proportional" animate="true" left="460" top="452" width="88" height="88" compilerOrder="27"/>&#xD;
+            <image field="box28" editable="true" style="proportional" animate="true" left="550" top="452" width="88" height="88" compilerOrder="28"/>&#xD;
+            <image field="box29" editable="true" style="proportional" animate="true" left="640" top="452" width="88" height="88" compilerOrder="29"/>&#xD;
+            <image field="box30" editable="true" style="proportional" animate="true" left="730" top="452" width="88" height="88" compilerOrder="30"/>&#xD;
+            <image field="box31" editable="true" style="proportional" animate="true" left="820" top="452" width="88" height="88" compilerOrder="31"/>&#xD;
+            <image field="box32" editable="true" style="proportional" animate="true" left="910" top="452" width="88" height="88" compilerOrder="32"/>&#xD;
+        </rectangle>
+    </scrollBox>
+</form>

@@ -1,92 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form name="frmFichaTeste5_svg" align="client" theme="light" margins="{top=1}">
-    <style>#frmFichaTeste5_svg path {color: black; strokeColor: black; mode: stretch;} &#xD;
-#frmFichaTeste4_svg label {fontColor: black; textTrimming: none; wordWrap: false; autoSize: true;}</style>
     <scrollBox align="client">
-        <rectangle width="1267" height="593" color="white">&#xD;
-            <image left="0" top="0" width="1267" height="593" src="images/4.png" style="stretch" optimize="true" compilerOrder="0"/>&#xD;
+        <rectangle width="1267" height="593" color="white">
+            <image left="0" top="0" width="1267" height="593" src="images/4.png" style="stretch" optimize="true" compilerOrder="0"/>
 
             <layout left="720" top="117" width="270" height="37" compilerOrder="1">
                 <edit transparent="true" fontSize="20" fontColor="#000000" horzTextAlign="center" vertTextAlign="trailing" left="0" top="0" width="270" height="37" field="name_pkmn_2" compilerOrder="2"/>
-            </layout>&#xD;
+            </layout>
 
             <layout left="78" top="117" width="270" height="37" compilerOrder="3">
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" fontSize="20" fontColor="#000000" left="0" top="0" width="270" height="37" field="name_pkmn_1" compilerOrder="4"/>
-            </layout>&#xD;
+            </layout>
 
-            <image field="img_pkmn_1" editable="true" style="proportional" animate="true" left="76" top="159" width="275" height="275" compilerOrder="5"/>&#xD;
+            <image field="img_pkmn_1" editable="true" style="proportional" animate="true" left="76" top="159" width="275" height="275" compilerOrder="5"/>
 
-			<image field="img_pkmn_2" editable="true" style="proportional" animate="true" left="720" top="159" width="275" height="275" compilerOrder="6"/>&#xD;
+			<image field="img_pkmn_2" editable="true" style="proportional" animate="true" left="720" top="159" width="275" height="275" compilerOrder="6"/>
 
             <layout left="376" top="200" width="180" height="39" compilerOrder="7">
                 <edit transparent="true" fontSize="20" fontColor="#000000" horzTextAlign="center" vertTextAlign="trailing" left="0" top="0" width="180" height="39" field="ability_1" compilerOrder="8"/>
-            </layout>&#xD;
+            </layout>
 
             <layout left="376" top="265" width="180" height="39" compilerOrder="9">
                 <edit transparent="true" fontSize="20" fontColor="#000000" horzTextAlign="center" vertTextAlign="trailing" left="0" top="0" width="180" height="39" field="gender_1" compilerOrder="10"/>
-            </layout>&#xD;
+            </layout>
 
             <layout left="1020" top="199" width="180" height="39" compilerOrder="11">
                 <edit transparent="true" fontSize="20" fontColor="#000000" horzTextAlign="center" vertTextAlign="trailing" left="0" top="0" width="180" height="39" field="ability_2" compilerOrder="12"/>
-            </layout>&#xD;
+            </layout>
 
             <layout left="1020" top="264" width="180" height="39" compilerOrder="13">
                 <edit transparent="true" fontSize="20" fontColor="#000000" horzTextAlign="center" vertTextAlign="trailing" left="0" top="0" width="180" height="39" field="gender_2" compilerOrder="14"/>
-            </layout>&#xD;
+            </layout>
 
-            <image field="type1_1" editable="true" style="proportional" animate="true" left="375" top="325" width="89" height="40" compilerOrder="15"/>&#xD;
+            <image field="type1_1" editable="true" style="autofit" animate="true" left="375" top="325" width="89" height="40" compilerOrder="15"/>
 
-            <image field="type1_2" editable="true" style="proportional" animate="true" left="465" top="325" width="89" height="40" compilerOrder="16"/>&#xD;
+            <image field="type1_2" editable="true" style="autofit" animate="true" left="465" top="325" width="89" height="40" compilerOrder="16"/>
 
-            <image field="type2_1" editable="true" style="proportional" animate="true" left="1018" top="325" width="89" height="40" compilerOrder="17"/>&#xD;
+            <image field="type2_1" editable="true" style="autofit" animate="true" left="1018" top="325" width="89" height="40" compilerOrder="17"/>
 
-            <image field="type2_2" editable="true" style="proportional" animate="true" left="1108" top="325" width="89" height="40" compilerOrder="18"/>&#xD;
+            <image field="type2_2" editable="true" style="autofit" animate="true" left="1108" top="325" width="89" height="40" compilerOrder="18"/>
 
-            <image field="item_1" editable="true" style="proportional" animate="true" left="310" top="392" width="40" height="40" compilerOrder="19"/>&#xD;
+            <image field="item_1" editable="true" style="proportional" animate="true" left="310" top="392" width="40" height="40" compilerOrder="19"/>
 
-            <image field="item_2" editable="true" style="proportional" animate="true" left="953" top="392" width="40" height="40" compilerOrder="20"/>&#xD;
+            <image field="item_2" editable="true" style="proportional" animate="true" left="953" top="392" width="40" height="40" compilerOrder="20"/>
 
             <layout left="375" top="390" width="88" height="40" compilerOrder="21">
-                <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="88" height="40" fontSize="20" fontColor="#000000" field="exp_1" compilerOrder="22"/>
-            </layout>&#xD;
+                <edit  text="Seu Exp" transparent="true" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="88" height="40" fontSize="20" fontColor="#000000" field="exp_1" compilerOrder="22"/>
+            </layout>
 
             <layout left="465" top="390" width="88" height="40" compilerOrder="23">
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="88" height="40" fontSize="20" fontColor="#000000" field="level_1" compilerOrder="24"/>
-            </layout>&#xD;
+            </layout>
 
             <layout left="1018" top="390" width="88" height="40" compilerOrder="25">
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="88" height="40" fontSize="20" fontColor="#000000" field="exp_2" compilerOrder="26"/>
-            </layout>&#xD;
+            </layout>
 
             <layout left="1108" top="389" width="88" height="40" compilerOrder="27">
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="88" height="40" fontSize="20" fontColor="#000000" field="level_2" compilerOrder="28"/>
-            </layout>&#xD;
+            </layout>
 
             <layout left="78" top="450" width="133" height="39" compilerOrder="28">
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="133" height="39" fontSize="20" fontColor="#000000" field="atk_1_1" compilerOrder="29"/>
-            </layout>&#xD;
+            </layout>
             <layout left="215" top="450" width="133" height="39" compilerOrder="30">
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="133" height="39" fontSize="20" fontColor="#000000" field="atk_1_2" compilerOrder="31"/>
-            </layout>&#xD;
+            </layout>
             <layout left="78" top="492" width="133" height="39" compilerOrder="32">
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="133" height="39" fontSize="20" fontColor="#000000" field="atk_1_3" compilerOrder="33"/>
-            </layout>&#xD;
+            </layout>
             <layout left="215" top="492" width="133" height="39" compilerOrder="34">
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="133" height="39" fontSize="20" fontColor="#000000" field="atk_1_4" compilerOrder="35"/>
-            </layout>&#xD;
+            </layout>
 
             <layout left="721" top="450" width="134" height="39" compilerOrder="36">
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="134" height="39" fontSize="20" fontColor="#000000" field="atk_2_1" compilerOrder="37"/>
-            </layout>&#xD;
+            </layout>
             <layout left="859" top="450" width="133" height="39" compilerOrder="38">
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="134" height="39" fontSize="20" fontColor="#000000" field="atk_2_2" compilerOrder="39"/>
-            </layout>&#xD;
+            </layout>
             <layout left="721" top="492" width="134" height="39" compilerOrder="40">
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="134" height="39" fontSize="20" fontColor="#000000" field="atk_2_3" compilerOrder="41"/>
-            </layout>&#xD;
+            </layout>
             <layout left="859" top="492" width="133" height="39" compilerOrder="42">
                 <edit transparent="true" vertTextAlign="trailing" horzTextAlign="center" left="0" top="0" width="134" height="39" fontSize="20" fontColor="#000000" field="atk_2_4" compilerOrder="43"/>
-            </layout>&#xD;
+            </layout>
         </rectangle>
     </scrollBox>
 </form>
